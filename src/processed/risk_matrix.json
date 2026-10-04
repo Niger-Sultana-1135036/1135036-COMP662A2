@@ -1,0 +1,177 @@
+[
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Almost certain",
+    "risk_level": "Very high"
+  },
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Very likely",
+    "risk_level": "Very high"
+  },
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Likely",
+    "risk_level": "Very high"
+  },
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Possible",
+    "risk_level": "High"
+  },
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Unlikely",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Rare",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Catastrophic",
+    "likelihood": "Very rare",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Almost certain",
+    "risk_level": "Very high"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Very likely",
+    "risk_level": "Very high"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Likely",
+    "risk_level": "High"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Possible",
+    "risk_level": "High"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Unlikely",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Rare",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Major",
+    "likelihood": "Very rare",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Almost certain",
+    "risk_level": "High"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Very likely",
+    "risk_level": "High"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Likely",
+    "risk_level": "High"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Possible",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Unlikely",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Rare",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Moderate",
+    "likelihood": "Very rare",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Almost certain",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Very likely",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Likely",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Possible",
+    "risk_level": "Medium"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Unlikely",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Rare",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Minor",
+    "likelihood": "Very rare",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Almost certain",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Very likely",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Likely",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Possible",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Unlikely",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Rare",
+    "risk_level": "Low"
+  },
+  {
+    "consequence": "Negligible",
+    "likelihood": "Very rare",
+    "risk_level": "Low"
+  }
+]

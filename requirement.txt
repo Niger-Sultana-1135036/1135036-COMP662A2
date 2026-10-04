@@ -1,0 +1,15 @@
+💻 --- SYSTEM INFO ---
+Python Version: 3.14.3
+Python Executable: c:\Users\HP\Documents\AI_Lincoln University\COMP662\1135036_Asignment2\COMP662.venv\Scripts\python.exe
+
+📦 --- INSTALLED LIBRARIES ---
+✅ pandas                 : 3.0.6
+✅ numpy                  : 2.5.3
+✅ pdfplumber             : 0.11.10
+✅ pypdf                  : 6.19.0
+✅ faiss                  : 1.15.1
+✅ transformers           : 5.17.0
+✅ huggingface_hub        : 1.33.0
+✅ sentence_transformers  : 6.1.0
+✅ torch                  : 2.14.0+cpu
+✅ openpyxl               : 3.1.5

@@ -1,0 +1,50 @@
+{
+  "NPS_NH_2025": {
+    "document_id": "NPS_NH_2025",
+    "document_title": "National Policy Statement for Natural Hazards 2025",
+    "authority_level": "national",
+    "document_status": "in_force",
+    "binding": true,
+    "effective_date": "2026-01-15",
+    "effective_date_basis": "commencement (in force)",
+    "freeze_date": "2026-09-06",
+    "source_url": "https://environment.govt.nz/assets/publications/RMA/npsnh-2025.pdf",
+    "teaching_use_note": "Teaching-use note. This is a course-prepared, non-verbatim teaching extract of the official National Policy Statement. Clause identifiers follow the official instrument so that retrieval results can be checked against the supplied gold labels. For COMP662 Assignment 2, use the clause labels and content in this frozen extract as the authoritative teaching source. It is a condensed teaching text, not a reproduction of the legal instrument, and must not be used as current legal, planning or engineering advice."
+  },
+  "NPS_NH_GUIDE_2026": {
+    "document_id": "NPS_NH_GUIDE_2026",
+    "document_title": "National Policy Statement for Natural Hazards Implementation Guide",
+    "authority_level": "national",
+    "document_status": "guidance",
+    "binding": false,
+    "effective_date": "2026-05",
+    "effective_date_basis": "published (ME 1962, May 2026)",
+    "freeze_date": "2026-09-06",
+    "source_url": "https://environment.govt.nz/assets/publications/RMA/national-policy-statement-for-natural-hazards-implementation-guide.pdf",
+    "teaching_use_note": "Teaching-use note. This is a course-prepared, non-verbatim teaching extract of the official implementation guide. It is guidance. It is not part of the National Policy Statement and it does not have the status of national direction. Where this guide and the NPS-NH address the same issue, cite the NPS-NH as the binding source and this guide as supporting interpretation."
+  },
+  "CRPS_CH11": {
+    "document_id": "CRPS_CH11",
+    "document_title": "Canterbury Regional Policy Statement - Chapter 11 Natural Hazards",
+    "authority_level": "regional",
+    "document_status": "operative",
+    "binding": true,
+    "effective_date": "2013",
+    "effective_date_basis": "operative 2013; changes to July 2021 included",
+    "freeze_date": "2026-09-06",
+    "source_url": "https://www.ecan.govt.nz/your-region/plans-strategies-and-bylaws/canterbury-regional-policy-statement/",
+    "teaching_use_note": "Teaching-use note. This is a course-prepared, non-verbatim teaching extract of selected Chapter 11 issues, objectives, policies and definitions. The operative CRPS is the regional source for this assessment. The Draft CRPS 2024 is not included in the corpus and must not be cited. Methods, anticipated environmental results and the full principal-reasons text of the official chapter are summarised or omitted."
+  },
+  "SELWYN_NH": {
+    "document_id": "SELWYN_NH",
+    "document_title": "Partially Operative Selwyn District Plan - Natural Hazards chapter",
+    "authority_level": "district",
+    "document_status": "partially_operative",
+    "binding": true,
+    "effective_date": "2026-05-19",
+    "effective_date_basis": "Appeals Version snapshot",
+    "freeze_date": "2026-09-06",
+    "source_url": "https://www.selwyn.govt.nz/property-And-building/planning/selwyn-district-plan",
+    "teaching_use_note": "Teaching-use note. This is a course-prepared, non-verbatim teaching extract of selected Natural Hazards provisions. The Appeals Version is updated as appeals are resolved and the live ePlan changes during the semester, so the course freezes the provisions below. Provision identifiers were checked against the chapter export dated 19 May 2026. Clause wording is a teaching condensation and is not the operative legal text; paragraphs marked 'Teaching note' are course explanation rather than plan text. The full chapter also covers coastal, fault, slope-instability and wildfire hazards, which are outside the scope of this assessment."
+  }
+}

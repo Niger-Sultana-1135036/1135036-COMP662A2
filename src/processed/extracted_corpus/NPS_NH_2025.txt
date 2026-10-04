@@ -1,0 +1,128 @@
+[[CLAUSE Authority]]
+Status and authority
+The National Policy Statement for Natural Hazards 2025 (NPS-NH) is national direction issued under section 52 of the Resource Management Act 1991. It is secondary legislation made under the authority of the Legislation Act 2019.
+It was made on 15 December 2025, published and notified on 18 December 2025, and came into force on 15 January 2026. The administering agency is the Ministry for the Environment.
+This is a principal instrument. It is not an amendment to, or a consolidation of, any earlier national policy statement, and there are no related instruments.
+An explanatory note is published with the instrument. That note indicates the general effect of the National Policy Statement but is not itself part of it. Where this teaching extract reproduces explanatory material, that material carries the status of explanation rather than of binding national direction.
+
+[[CLAUSE 1.1]]
+Title
+This instrument is the National Policy Statement for Natural Hazards 2025.
+
+[[CLAUSE 1.2]]
+Commencement
+This National Policy Statement comes into force on 15 January 2026.
+Part 4 sets out the timeframes for giving effect to this National Policy Statement.
+
+[[CLAUSE 1.3]]
+Application
+(1) This National Policy Statement applies to the following natural hazards: flooding; landslips; coastal erosion; coastal inundation; active faults; liquefaction; and tsunami.
+(2) This National Policy Statement applies to all activities managed under the Resource Management Act 1991, except for infrastructure (as defined in the Act) and primary production (as defined in the National Planning Standards).
+(3) This National Policy Statement applies to all environments and all zones, including coastal environments. Where there is a conflict between the provisions of this National Policy Statement and the New Zealand Coastal Policy Statement 2010, the New Zealand Coastal Policy Statement 2010 prevails.
+(4) This National Policy Statement does not preclude decision-makers from managing natural hazard risk beyond its application, including risks from other natural hazards and from activities not otherwise covered, or from applying a more conservative approach to the natural hazard risks that it does cover.
+(5) This National Policy Statement does not override any existing use rights that may apply under section 10 of the Act.
+
+[[CLAUSE 1.4]]
+Interpretation
+In this National Policy Statement:
+Act means the Resource Management Act 1991.
+commencement date means the date on which this National Policy Statement comes into force, as identified in clause 1.2.
+decision-maker means any person exercising functions or powers under the Act.
+high natural hazard risk means natural hazard risk assessed as 'high' using the risk matrix.
+medium natural hazard risk means natural hazard risk assessed as 'medium' using the risk matrix.
+risk matrix means the risk matrix, including the likelihood and consequence tables, in Appendix 1.
+significant natural hazard risk means natural hazard risk assessed as 'medium', 'high' or 'very high' using the risk matrix.
+very high natural hazard risk means natural hazard risk assessed as 'very high' using the risk matrix.
+Terms defined in the Act and used in this National Policy Statement have the meanings given in the Act, except as otherwise specified. Terms defined in the National Planning Standards issued under section 58E of the Act have the meanings given in those Standards, unless otherwise specified.
+
+[[CLAUSE 1.5]]
+Incorporation by reference
+Clause 2(1) of Schedule 1AA of the Act does not apply to any material incorporated by reference in this National Policy Statement.
+
+[[CLAUSE 2.1]]
+Objective
+Natural hazard risk to people and property associated with subdivision, use and development is managed using a risk-based proportionate approach.
+
+[[CLAUSE 2.2 Policy 1]]
+Risk matrix assessment
+Policy 1: When considering natural hazard risk associated with subdivision, use or development, the risk level must be assessed using the risk matrix.
+
+[[CLAUSE 2.2 Policy 2]]
+Proportionate management
+Policy 2: Natural hazard risk associated with subdivision, use and development must be managed using an approach that is proportionate to the level of natural hazard risk.
+
+[[CLAUSE 2.2 Policy 3]]
+Very high risk
+Policy 3: Where subdivision, use or development is assessed as having very high natural hazard risk, that risk must be avoided.
+
+[[CLAUSE 2.2 Policy 4]]
+Risk created or increased on other sites
+Policy 4: Where subdivision, use or development, including any associated mitigation measures, will create or increase significant natural hazard risk on other sites, that risk must be avoided or mitigated using an approach that is proportionate to the level of natural hazard risk.
+
+[[CLAUSE 2.2 Policy 5]]
+Best available information
+Policy 5: Natural hazard risk assessment and decisions must be based on the best available information and must be made even when that information is uncertain or incomplete.
+
+[[CLAUSE 2.2 Policy 6]]
+Climate change
+Policy 6: The potential impacts of climate change to at least 100 years into the future must be considered.
+
+[[CLAUSE 3.1]]
+Overview of Part 3
+This Part sets out a non-exhaustive list of things that must be done to implement or give effect to the objective and policies of this National Policy Statement.
+Nothing in this Part limits the general obligation under the Act to give effect to that objective and those policies.
+
+[[CLAUSE 3.2]]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[[CLAUSE 3.3]]
+Proportionate management of natural hazard risk
+(1) Decision-makers must consider the scale and detail of information necessary to assess the risk, having regard to the anticipated level of risk.
+(2) When managing natural hazard risk associated with subdivision, use and development, decision-makers must apply mitigation measures, including location and design, for the purposes of ensuring that: (a) very high natural hazard risk is avoided; (b) high or medium natural hazard risk is avoided or mitigated proportionate to the level of risk; and (c) any creation of, or increase in, significant natural hazard risk on other sites is avoided or mitigated proportionate to the level of natural hazard risk.
+(3) When applying the proportionate approach required by (2)(b) and (2)(c), decision-makers must take into account the cost effectiveness of mitigation measures relative to the level of anticipated risk.
+
+[[CLAUSE 3.4]]
+Best available information
+(1) When undertaking risk assessments and making decisions for the purposes of managing natural hazard risk, decision-makers must use the best information available at the time of making the assessment or decision.
+(2) When information is uncertain or incomplete, decision-makers must continue to undertake risk assessments and make decisions using the best available information, and must not delay making decisions solely because of uncertainty about the quality or quantity of the information available.
+
+[[CLAUSE Part 4]]
+Timing
+(1) Decision-makers must give effect to this National Policy Statement on and from the commencement date, except as provided for in (2).
+(2) Local authorities are not required to initiate changes to regional policy statements, regional plans or district plans within a specific timeframe for the sole purpose of giving effect to this National Policy Statement.
+
+[[CLAUSE Appendix 1]]
+Risk matrix, likelihood and consequence tables
+When undertaking an assessment of natural hazard risk, the following risk matrix and associated tables must be applied to enable assessment of the consequence level and likelihood level and to determine the applicable level of natural hazard risk.
+Figure 1 — Risk matrix. The same 35 likelihood x consequence mappings are supplied in machine-readable form in risk_matrix.csv. For this assessment, apply the deterministic lookup rather than asking a language model to reproduce the matrix from memory.
+[Table — rows: Consequence; columns: Likelihood]
+Consequence = Catastrophic: Almost certain → Very high; Very likely → Very high; Likely → Very high; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Major: Almost certain → Very high; Very likely → Very high; Likely → High; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Moderate: Almost certain → High; Very likely → High; Likely → High; Possible → Medium; Unlikely → Medium; Rare → Low; Very rare → Low
+Consequence = Minor: Almost certain → Medium; Very likely → Medium; Likely → Medium; Possible → Medium; Unlikely → Low; Rare → Low; Very rare → Low
+Consequence = Negligible: Almost certain → Low; Very likely → Low; Likely → Low; Possible → Low; Unlikely → Low; Rare → Low; Very rare → Low
+
+[[CLAUSE Appendix 1 Table 1]]
+Likelihood table
+Likelihood is expressed either as an annual exceedance probability (AEP) or as an average recurrence interval (ARI), also called a return period.
+Boundary convention: the top end of each likelihood range includes the top end year. For example, Likely means over 20 years and up to and including 50 years. A 100-year return period therefore falls in the Possible band, and a 50-year return period falls in the Likely band.
+[Table — columns: Likelihood level | Annual exceedance probability (AEP) | ARI / return period]
+Likelihood level = Almost certain; Annual exceedance probability (AEP) = 10% or more; ARI / return period = Up to and including 10 years
+Likelihood level = Very likely; Annual exceedance probability (AEP) = 10% to 5%; ARI / return period = Over 10 and up to and including 20 years
+Likelihood level = Likely; Annual exceedance probability (AEP) = 5% to 2%; ARI / return period = Over 20 and up to and including 50 years
+Likelihood level = Possible; Annual exceedance probability (AEP) = 2% to 1%; ARI / return period = Over 50 and up to and including 100 years
+Likelihood level = Unlikely; Annual exceedance probability (AEP) = 1% to 0.2%; ARI / return period = Over 100 and up to and including 500 years
+Likelihood level = Rare; Annual exceedance probability (AEP) = 0.2% to 0.02%; ARI / return period = Over 500 and up to and including 5,000 years
+Likelihood level = Very rare; Annual exceedance probability (AEP) = Less than 0.02%; ARI / return period = More than 5,000 years
+
+[[CLAUSE Appendix 1 Table 2]]
+Consequence table
+The consequence table describes the consequence of a natural hazard event for property (land and buildings) and for people (potential for injury or fatalities).
+[Table — columns: Consequence level | Damage to property | Potential for injury or fatalities]
+Consequence level = Catastrophic; Damage to property = Severe damage to land and building(s), potential for collapse or total destruction of structures. Building(s) need to be demolished, rebuilt or relocated.; Potential for injury or fatalities = High threat to life safety, with probable fatalities and/or critical injuries.
+Consequence level = Major; Damage to property = Major damage to land and building(s), including structural damage. Loss of use and substantial repair required.; Potential for injury or fatalities = Unsafe for people, with potential for many injuries, or critical injuries and/or fatalities.
+Consequence level = Moderate; Damage to property = Some damage to land and non-structural damage to building(s). Limited loss of use, repairs required.; Potential for injury or fatalities = Unsafe for people, with potential for injuries, although expected to be minor.
+Consequence level = Minor; Damage to property = Minor damage to land and building(s). No loss of use, minimal repairs required.; Potential for injury or fatalities = Isolated minor injuries possible.
+Consequence level = Negligible; Damage to property = No loss of use, no building repairs required.; Potential for injury or fatalities = No injuries.

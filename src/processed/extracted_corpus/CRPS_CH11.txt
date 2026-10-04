@@ -1,0 +1,134 @@
+[[CLAUSE 11.1.1]]
+Issue — Risks from naturally occurring events
+Canterbury is subject to a range of naturally occurring events including flooding, earthquake, liquefaction, lateral spread, land instability, coastal erosion, sea water inundation and tsunami.
+When these events occur they can cause adverse effects on the social, economic and cultural wellbeing of people and communities. Infrastructure and property may be damaged, activity can be disrupted, and human health can be put at risk.
+Natural hazard events can also have flow-on effects on the natural environment. For example, a flood may result in sewage being inadvertently discharged into a waterway.
+
+[[CLAUSE 11.1.2]]
+Issue — Development and natural hazards
+Subdivision, use and development of land can increase the risk from natural hazards, by placing more people and property in the path of hazard events and by changing the way hazard events behave.
+Development can also transfer risk. Filling, earthworks and flood-protection works on one site can displace floodwater onto neighbouring land.
+Decisions about where and how development occurs are therefore a primary means of managing natural hazard risk.
+
+[[CLAUSE 11.1.3]]
+Issue — Hazard mitigation works
+Physical works used to mitigate natural hazards, such as stopbanks, retaining walls, raised floor levels and planting, can themselves have adverse effects on the natural and built environment and on cultural values.
+Mitigation works also carry a residual risk: they are designed to a particular standard, and events larger than that standard can overtop or defeat them.
+
+[[CLAUSE 11.1.4]]
+Issue — Expectation of security
+Communities can develop an expectation that hazard mitigation works provide complete security, and can then intensify development behind those works.
+This expectation is not well founded. Where a design standard is exceeded, the consequences may be greater than they would have been without the works, because more people and property are present.
+
+[[CLAUSE 11.1.5]]
+Issue — Climate change
+Climate change is likely to result in sea-level rise and an increase in the frequency and severity of natural hazards such as floods, extreme hot weather events and drought.
+Planning needs to recognise the likely impacts of climate change on existing development and communities, and when considering new development.
+
+[[CLAUSE 11.1.6]]
+Issue — Integrated management and preparedness
+Effective natural hazard management requires cooperation between the regional council, territorial authorities, emergency management agencies, network utility operators, Ngai Tahu and communities.
+Information needed for timely and effective response must be readily available to the people working across the region.
+
+[[CLAUSE 11.2.1]]
+Objective — Avoid new development that increases natural hazard risk
+New subdivision, use and development of land which increases the risk of natural hazards to people, property and infrastructure is avoided or, where avoidance is not possible, mitigation measures minimise such risks.
+The objective seeks that risks from natural hazards are avoided in the first instance and otherwise mitigated. Avoiding these impacts involves ensuring that development does not occur in high hazard areas. In lower-risk areas, and where development may otherwise be appropriate in high hazard areas, mitigation measures may provide an alternative means of achieving the objective.
+This objective is implemented by Policies 11.3.1, 11.3.2, 11.3.3, 11.3.4, 11.3.5, 11.3.6 and 11.3.8.
+
+[[CLAUSE 11.2.2]]
+Objective — Adverse effects from hazard mitigation are avoided or mitigated
+Adverse effects on people, property, infrastructure and the environment resulting from methods used to manage natural hazards are avoided or, where avoidance is not possible, mitigated.
+Methods used to mitigate natural hazards, such as raised floor levels, stopbanks, retaining walls or vegetation planting, may themselves have adverse effects on the environment and on other values that contribute to wellbeing, including cultural wellbeing.
+This objective is implemented by Policies 11.3.6 and 11.3.7.
+
+[[CLAUSE 11.2.3]]
+Objective — Climate change and natural hazards
+The effects of climate change, and its influence on sea levels and the frequency and severity of natural hazards, are recognised and provided for.
+Planning needs to respond to climate change projections so that communities are resilient and can continue to provide for their social, economic and cultural wellbeing into the future.
+This objective is implemented by Policy 11.3.8.
+
+[[CLAUSE 11.2.4]]
+Objective — Integrated management of, and preparedness for, natural hazards
+The level of cooperation between agencies and organisations necessary to achieve integrated management of Canterbury's natural hazards, and preparedness for natural hazards, is maintained or enhanced.
+This objective is implemented by Policy 11.3.9.
+
+[[CLAUSE 11.3.1]]
+Policy — Avoidance of inappropriate development in high hazard areas
+To avoid new subdivision, use and development, except as provided for in Policy 11.3.4, of land in high hazard areas, unless the subdivision, use or development:
+1. is not likely to result in loss of life or serious injuries in the event of a natural hazard occurrence; and
+2. is not likely to suffer significant damage or loss in the event of a natural hazard occurrence; and
+3. is not likely to require new or upgraded hazard mitigation works to mitigate or avoid the natural hazard; and
+4. is not likely to exacerbate the effects of the natural hazard; or
+5. outside of greater Christchurch, is proposed to be located in an area zoned or identified in a district plan for urban residential, industrial or commercial use at the date of notification of the CRPS, in which case the effects of the natural hazard must be mitigated; or
+6. within greater Christchurch, is proposed to be located in an area zoned in a district plan for urban residential, industrial or commercial use, or identified as a Greenfield Priority Area, at the date the Land Use Recovery Plan was notified, in which case the effect of the natural hazard must be avoided or appropriately mitigated; or
+7. within greater Christchurch, relates to the maintenance or upgrading of existing critical or significant infrastructure.
+Development that meets criteria (1) to (4) will generally be low-intensity use such as forestry, farming or recreational parks. These uses are less likely to suffer significant damage, loss of life, or require significant public expenditure on infrastructure remediation.
+Areas subject to inundation where the depth or velocity of flood water is not likely to be sufficient to pose a significant risk to life are addressed by Policy 11.3.2 instead.
+This policy implements Objective 11.2.1.
+
+[[CLAUSE 11.3.2]]
+Policy — Avoid development in areas subject to inundation
+In areas not subject to Policy 11.3.1 that are subject to inundation by a 0.5% AEP flood event, any new subdivision, use and development, excluding critical infrastructure, shall be avoided unless there is no increased risk to life and the subdivision, use or development:
+1. is of a type that is not likely to suffer material damage in an inundation event; or
+2. is ancillary or incidental to the main development; or
+3. meets all of the following criteria: (a) new buildings have an appropriate floor level above the 0.5% AEP design flood level; and (b) hazardous substances will not be inundated during a 0.5% AEP flood event;
+provided that a higher standard of management of inundation hazard events may be adopted where local catchment conditions warrant, as determined by a cost/benefit assessment.
+When determining areas subject to inundation, climate change projections including sea-level rise are to be taken into account.
+A 0.5% AEP flood means there is a 1 in 200 chance that a flood of this size will happen in any given year. A 1% AEP flood means there is a 1 in 100 chance in any given year.
+This policy implements Objective 11.2.1.
+
+[[CLAUSE 11.3.3]]
+Policy — Earthquake hazards
+New subdivision, use and development of land on or close to an active earthquake fault trace, or in areas susceptible to liquefaction and lateral spreading, shall be managed in order to avoid or mitigate the adverse effects of fault rupture, liquefaction and lateral spreading.
+Risk assessment should occur before intensification or other development in susceptible areas. Susceptibility can vary within a mapped area, so site-specific investigation may be needed to establish the actual ground conditions on a particular site.
+This policy implements Objective 11.2.1.
+
+[[CLAUSE 11.3.4]]
+Policy — Critical infrastructure
+New critical infrastructure will be located outside high hazard areas unless there is no reasonable alternative.
+In relation to all areas, critical infrastructure must be designed to maintain, as far as practicable, its integrity and function during natural hazard events.
+Critical infrastructure is infrastructure necessary for ensuring the resilience of communities to the effects of natural hazard events — for example, key bridges.
+This policy implements Objective 11.2.1.
+
+[[CLAUSE 11.3.5]]
+Policy — General risk management approach
+For natural hazards or areas not addressed by Policies 11.3.1, 11.3.2 and 11.3.3, subdivision, use or development of land shall be avoided if the risk from natural hazards is unacceptable.
+When determining whether risk is unacceptable, the following matters will be considered: 1. the likelihood of the natural hazard event; and 2. the potential consequence of the natural hazard event for people and communities, property and infrastructure, the environment, and emergency response organisations.
+Where there is uncertainty in the likelihood or consequences of a natural hazard event, the local authority shall adopt a precautionary approach.
+Formal risk management techniques should be used, such as AS/NZS ISO 31000 Risk Management or AS/NZS 1170.0 Structural Design Actions.
+This policy implements Objective 11.2.1.
+
+[[CLAUSE 11.3.6]]
+Policy — Role of natural features
+The protective role of natural features and landforms, such as dunes, wetlands, riparian margins and floodplains, in reducing the effects of natural hazards is recognised and maintained.
+Modification of these features can increase hazard risk elsewhere and should be avoided where the feature performs a hazard mitigation function.
+This policy implements Objectives 11.2.1 and 11.2.2.
+
+[[CLAUSE 11.3.7]]
+Policy — Physical mitigation works
+New physical works to mitigate natural hazards will be acceptable only where: 1. the natural hazard risk cannot reasonably be avoided; and 2. any adverse effects of those works on the natural and built environment and on the cultural values of Ngai Tahu are avoided, remedied or mitigated.
+Alternatives to physical works, such as the relocation, removal or abandonment of existing structures, should be considered.
+Where physical mitigation works or structures are developed or maintained by local authorities, impediments to accessing those structures for maintenance purposes will be avoided.
+This policy implements Objectives 11.2.1 and 11.2.2.
+
+[[CLAUSE 11.3.8]]
+Policy — Climate change
+When considering natural hazards, and in determining if new subdivision, use or development is appropriate and sustainable in relation to the potential risks from natural hazard events, local authorities shall have particular regard to the effects of climate change.
+This policy implements Objectives 11.2.1 and 11.2.3.
+
+[[CLAUSE 11.3.9]]
+Policy — Integrated management of, and preparedness for, natural hazards
+Local authorities and other agencies will work together to maintain or enhance the integrated management of natural hazards and preparedness for natural hazard events.
+This includes sharing hazard information, working together to investigate and define potential high hazard areas where information is uncertain or insufficient, and making natural hazard information available on request.
+This policy implements Objective 11.2.4.
+
+[[CLAUSE Definition: high hazard areas]]
+Definition — High hazard areas
+For the purposes of Chapter 11, high hazard areas are:
+1. flood hazard areas subject to inundation events where the water depth in metres multiplied by the velocity in metres per second is greater than or equal to 1, or where depths are greater than 1 metre, in a 0.2% AEP flood event;
+2. land outside of greater Christchurch subject to coastal erosion over the next 100 years;
+3. land within greater Christchurch likely to be subject to coastal erosion, including the cumulative effects of sea-level rise, over the next 100 years; and
+4. land subject to sea water inundation, excluding tsunami, over the next 100 years.
+The flood component of this definition is a test applied to a 0.2% AEP event, that is, a 1 in 500 year event. Flood modelling supplied for a different design event, such as a 1% or 0.5% AEP event, does not by itself establish whether a site is inside or outside a high hazard area. Where only a different design event is available, that limitation should be stated rather than treated as a result.
+International research and observation have shown that critical flood depths and velocities damage structures and harm people. In water that is not moving, flood depths greater than about 1 metre pose a threat to life. Where water is moving, velocity increases the risk to life and property, and depth and velocity combined can result in significant risk.

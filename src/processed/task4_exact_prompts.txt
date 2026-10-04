@@ -1,0 +1,2153 @@
+####################################################################################################
+# P1 | DEV001 | direct_policy
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[NPS_NH_2025 | clause 2.2 Policy 1]
+Risk matrix assessment
+Policy 1: When considering natural hazard risk associated with subdivision, use or development, the risk level must be assessed using the risk matrix.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Risk level]
+Combining likelihood and consequence
+Policy 1 directs that the risk level must be assessed using the risk matrix. The matrix combines the likelihood and consequence of a particular natural hazard event to determine whether the level of natural hazard risk is low, medium, high or very high.
+The matrix is a deterministic lookup. It should not be re-derived, approximated or reasoned about qualitatively when the likelihood and consequence levels are known.
+
+[NPS_NH_2025 | clause 1.4]
+Interpretation
+In this National Policy Statement:
+Act means the Resource Management Act 1991.
+commencement date means the date on which this National Policy Statement comes into force, as identified in clause 1.2.
+decision-maker means any person exercising functions or powers under the Act.
+high natural hazard risk means natural hazard risk assessed as 'high' using the risk matrix.
+medium natural hazard risk means natural hazard risk assessed as 'medium' using the risk matrix.
+risk matrix means the risk matrix, including the likelihood and consequence tables, in Appendix 1.
+significant natural hazard risk means natural hazard risk assessed as 'medium', 'high' or 'very high' using the risk matrix.
+very high natural hazard risk means natural hazard risk assessed as 'very high' using the risk matrix.
+Terms defined in the Act and used in this National Policy Statement have the meanings given in the Act, except as otherwise specified. Terms defined in the National Planning Standards issued under section 58E of the Act have the meanings given in those Standards, unless otherwise specified.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_2025 | clause Appendix 1]
+Risk matrix, likelihood and consequence tables
+When undertaking an assessment of natural hazard risk, the following risk matrix and associated tables must be applied to enable assessment of the consequence level and likelihood level and to determine the applicable level of natural hazard risk.
+Figure 1 — Risk matrix. The same 35 likelihood x consequence mappings are supplied in machine-readable form in risk_matrix.csv. For this assessment, apply the deterministic lookup rather than asking a language model to reproduce the matrix from memory.
+[Table — rows: Consequence; columns: Likelihood]
+Consequence = Catastrophic: Almost certain → Very high; Very likely → Very high; Likely → Very high; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Major: Almost certain → Very high; Very likely → Very high; Likely → High; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Moderate: Almost certain → High; Very likely → High; Likely → High; Possible → Medium; Unlikely → Medium; Rare → Low; Very rare → Low
+Consequence = Minor: Almost certain → Medium; Very likely → Medium; Likely → Medium; Possible → Medium; Unlikely → Low; Rare → Low; Very rare → Low
+Consequence = Negligible: Almost certain → Low; Very likely → Low; Likely → Low; Possible → Low; Unlikely → Low; Rare → Low; Very rare → Low
+
+Question: Which national policy requires natural-hazard risk to be assessed using a risk matrix?
+
+####################################################################################################
+# P1 | DEV005 | case_specific
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[NPS_NH_2025 | clause 2.2 Policy 5]
+Best available information
+Policy 5: Natural hazard risk assessment and decisions must be based on the best available information and must be made even when that information is uncertain or incomplete.
+
+[NPS_NH_2025 | clause 2.2 Policy 2]
+Proportionate management
+Policy 2: Natural hazard risk associated with subdivision, use and development must be managed using an approach that is proportionate to the level of natural hazard risk.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+
+[NPS_NH_2025 | clause 2.2 Policy 4]
+Risk created or increased on other sites
+Policy 4: Where subdivision, use or development, including any associated mitigation measures, will create or increase significant natural hazard risk on other sites, that risk must be avoided or mitigated using an approach that is proportionate to the level of natural hazard risk.
+
+Case facts:
+Case SC001
+
+Proposal:
+  - Activity type: 12-lot residential subdivision
+  - Lots / buildings: 12
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Vacant land
+  - Hazard overlays: Plains flood management overlay
+  - Available reports: Council flood assessment summary
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.43
+  - Return period (years): 70
+  - Modelled depth (m): 0.35
+  - Velocity (m/s): 0.25
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Supplied teaching map indicates low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.3
+  - Drainage: Concept stormwater plan supplied
+  - Foundation design: not supplied
+  - Access / evacuation: Road access remains available in modelled event
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - Final finished-floor levels have not yet been certified.
+
+Question: For this subdivision, identify the relevant flood-related policy evidence and explain what supplied facts are most important to a preliminary assessment.
+
+####################################################################################################
+# P1 | DEV006 | case_specific
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[SELWYN_NH | clause NH-P13]
+Policy — Liquefaction
+Provide for subdivision on flat land where the liquefaction hazard has been appropriately identified and assessed, and can be adequately remedied or mitigated.
+Teaching note. Regional or district-scale susceptibility mapping indicates the possible presence of liquefiable ground. It does not establish the liquefaction hazard on an individual site, and it is not a substitute for a site-specific geotechnical assessment by a suitably qualified and experienced person.
+Teaching note. Where a site-specific geotechnical assessment has not been provided, the liquefaction hazard has not been appropriately identified and assessed for the purposes of this policy.
+
+[CRPS_CH11 | clause 11.3.3]
+Policy — Earthquake hazards
+New subdivision, use and development of land on or close to an active earthquake fault trace, or in areas susceptible to liquefaction and lateral spreading, shall be managed in order to avoid or mitigate the adverse effects of fault rupture, liquefaction and lateral spreading.
+Risk assessment should occur before intensification or other development in susceptible areas. Susceptibility can vary within a mapped area, so site-specific investigation may be needed to establish the actual ground conditions on a particular site.
+This policy implements Objective 11.2.1.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Other sites]
+Managing risk on other sites
+Clause 3.3(2)(c) requires that subdivision, use or development, including any associated mitigation measures, avoids or mitigates the creation of, or increase in, significant risk on other sites.
+Whether that risk is to be avoided or mitigated depends on what response is proportionate to the level of risk posed.
+Mitigation works that redirect or displace floodwater are a common way in which a proposal can create or increase risk on a neighbouring site.
+
+[SELWYN_NH | clause NH-P3]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Climate change]
+Impacts of climate change
+Policy 6 requires a risk assessment to consider the potential impacts of climate change to at least 100 years into the future. The 100-year timeframe applies when using existing hazard data and information in the risk assessment process.
+If information that includes climate change over the 100-year timeframe is not available or applicable, Policy 5 — assessment and decisions must be based on the best available information — applies.
+There is no single statutory requirement mandating a specific future projection. The national adaptation plan is principles-based rather than prescriptive, and recommends consideration of a range of plausible future conditions, and tailoring the scenario used to suit the longevity and significance of the activity being considered.
+The impacts of climate change will increase the likelihood of climate-sensitive hazards such as flooding and rainfall-induced landslips. What is currently a 1% AEP event may in future become a 2% AEP event, and at the same time have increased consequences, so what is a low risk now may become a high risk in the future.
+Changes to the risk profile under different climate scenarios can be assessed using the matrix in two ways: by holding the event likelihood constant and adjusting the consequence rating to reflect increased impacts; or by assessing how an event of a given magnitude may increase in likelihood over time.
+
+Case facts:
+Case SC002
+
+Proposal:
+  - Activity type: 8-lot residential subdivision
+  - Lots / buildings: 8
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Large residential parcel
+  - Hazard overlays: Liquefaction susceptibility area
+  - Available reports: Regional liquefaction mapping extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 0.5
+  - Return period (years): 200
+  - Modelled depth (m): 0.05
+  - Velocity (m/s): not supplied
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: medium
+  - Mapped evidence: Mapped susceptibility supplied
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: Existing network connection proposed
+  - Foundation design: No site-specific foundation design supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: High
+
+Known uncertainties (as supplied):
+  - No site-specific geotechnical assessment has been supplied.
+
+Question: For this subdivision, what policy evidence is relevant to liquefaction and what missing information should be highlighted?
+
+####################################################################################################
+# P1 | DEV011 | multi_document
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[SELWYN_NH | clause NH-P10]
+Policy — Plains Flood Management Overlay
+In areas within the Plains Flood Management Overlay that are not a high hazard area, provide for:
+1. important infrastructure and land transport infrastructure; and
+2. any other new subdivision, use, and development only where every new residential unit or principal building has an appropriate floor level above the 200 year Average Return Interval (ARI) design flood level.
+Teaching note. This policy states the requirement qualitatively as an appropriate floor level. The numeric standard is set by NH-SCHED1, which specifies a minimum finished floor level 300 mm above the 200-year ARI flood level. Assess a proposed floor level against NH-SCHED1 and the rule NH-R2.3, not against this policy alone.
+Teaching note. Where no Flood Assessment Certificate has been issued for the site, the design flood level has not been established and a proposed floor level cannot be evaluated against this policy on the supplied information.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+Teaching note. This schedule is where the 300 mm figure is set. A draft, indicative or unissued certificate does not establish a minimum finished floor level, so where only a draft is available the required floor level has not been established for the purposes of NH-R2.3.
+Teaching note. A Flood Assessment Certificate addresses flood levels and high hazard area status only. It does not address liquefaction, land stability, or any other natural hazard, and it is not a building consent, resource consent or engineering certification.
+
+Case facts:
+Case SC001
+
+Proposal:
+  - Activity type: 12-lot residential subdivision
+  - Lots / buildings: 12
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Vacant land
+  - Hazard overlays: Plains flood management overlay
+  - Available reports: Council flood assessment summary
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.43
+  - Return period (years): 70
+  - Modelled depth (m): 0.35
+  - Velocity (m/s): 0.25
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Supplied teaching map indicates low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.3
+  - Drainage: Concept stormwater plan supplied
+  - Foundation design: not supplied
+  - Access / evacuation: Road access remains available in modelled event
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - Final finished-floor levels have not yet been certified.
+
+Question: Identify the national, regional, and district-level evidence that is relevant to flood risk for this residential subdivision.
+
+####################################################################################################
+# P1 | DEV015 | missing_information
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[SELWYN_NH | clause NH-R2.4]
+Rule — Activity status where NH-R2.3 is not met
+Where compliance with NH-R2.3.a or NH-R2.3.b is not achieved, the activity is non-complying (NC).
+Where compliance with NH-R2.3.c is not achieved, the activity is restricted discretionary (RDIS).
+Teaching note. The two failure paths are not equivalent. Being in a high hazard area, or between a water body and its stopbank, makes the activity non-complying, which is a substantially higher consent hurdle. Failing only the certified floor level makes it restricted discretionary. A response that treats any non-compliance with NH-R2.3 as merely requiring consent understates the first case.
+
+[NPS_NH_GUIDE_2026 | clause Part 5: Other instruments]
+Interaction with other policies and legislation
+Natural hazard risk is also addressed through other legislation. The Building Act 2004 addresses building requirements through the Building Code and related compliance pathways. The Civil Defence Emergency Management Act 2002 focuses on preparing for, responding to and recovering from natural hazard events. The Local Government Official Information and Meetings Act 1987 requires all known natural hazard information held by a council to be included on Land Information Memoranda.
+Clause 1.3(3) directs that the New Zealand Coastal Policy Statement 2010 prevails where there is inconsistency in policy direction on managing natural hazard risk in the coastal environment.
+Because infrastructure is exempted from the NPS-NH, the National Policy Statement for Infrastructure 2025 applies when deciding a consent for infrastructure that is not infrastructure as defined in the RMA, or where existing planning provisions manage infrastructure in areas subject to natural hazards.
+The NPS-NH does not have precedence over the National Policy Statement on Urban Development 2020. Both must be considered and the outcomes sought by each balanced.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[CRPS_CH11 | clause 11.3.5]
+Policy — General risk management approach
+For natural hazards or areas not addressed by Policies 11.3.1, 11.3.2 and 11.3.3, subdivision, use or development of land shall be avoided if the risk from natural hazards is unacceptable.
+When determining whether risk is unacceptable, the following matters will be considered: 1. the likelihood of the natural hazard event; and 2. the potential consequence of the natural hazard event for people and communities, property and infrastructure, the environment, and emergency response organisations.
+Where there is uncertainty in the likelihood or consequences of a natural hazard event, the local authority shall adopt a precautionary approach.
+Formal risk management techniques should be used, such as AS/NZS ISO 31000 Risk Management or AS/NZS 1170.0 Structural Design Actions.
+This policy implements Objective 11.2.1.
+
+[NPS_NH_GUIDE_2026 | clause Appendix 1]
+Additional reference material
+The guide lists non-statutory documents that provide additional information on the risk-based planning approach and on land-use planning for different hazards. Some require updating and may include information superseded by evolving best practice, but may still provide useful context.
+The listed material includes guidance on integrating tsunami inundation modelling into risk-based land-use planning; landslide planning guidance; AS/NZS ISO 31000:2018 Risk Management; guidance on planning for development of land on or close to active faults; planning and engineering guidance for potentially liquefaction-prone land; guidance on preparing for future flooding; coastal hazards and climate change guidance; and risk-based land-use planning for natural hazard risk reduction.
+For COMP662 Assignment 2, these referenced documents are not part of the supplied corpus. A response must not cite them as retrieved evidence.
+
+Case facts:
+Case SC010
+
+Proposal:
+  - Activity type: small community hall
+  - Lots / buildings: 1
+  - Expected occupancy: Up to 120 people
+  - Vulnerable occupants: no
+  - Design life (years): 75
+
+Site:
+  - Planning zone: Rural township zone
+  - Existing use: Vacant lot
+  - Hazard overlays: none supplied
+  - Available reports: none supplied
+
+Flood:
+  - Evidence available: no
+  - AEP (%): not supplied
+  - Return period (years): not supplied
+  - Modelled depth (m): not supplied
+  - Velocity (m/s): not supplied
+  - Climate change considered: not supplied
+
+Liquefaction:
+  - Susceptibility: not supplied
+  - Mapped evidence: not supplied
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: not supplied
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - No site-specific hazard information is supplied.
+  - The absence of a supplied overlay is not evidence that no hazard exists.
+
+Question: The case contains no supplied hazard reports. What can the assistant say, and what must it avoid assuming?
+
+####################################################################################################
+# P1 | DEV019 | out_of_scope
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[NPS_NH_GUIDE_2026 | clause Part 4: Assess the risk]
+Assessing risk for a specific activity and hazard
+The NPS-NH directs a risk-based approach — assessing the risk to a specific activity from a specific natural hazard. This requires decision-makers to consider the location, type and design of the activity for which consent is sought.
+Clause 3.2 of the NPS-NH identifies the key components required in a risk-based assessment: the likelihood of the event, the consequence for life and property, and consideration of both mitigation measures and residual risk.
+Where a proposal is exposed to more than one natural hazard, the risk assessment is carried out separately for each hazard.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_2025 | clause 3.4]
+Best available information
+(1) When undertaking risk assessments and making decisions for the purposes of managing natural hazard risk, decision-makers must use the best information available at the time of making the assessment or decision.
+(2) When information is uncertain or incomplete, decision-makers must continue to undertake risk assessments and make decisions using the best available information, and must not delay making decisions solely because of uncertainty about the quality or quantity of the information available.
+
+[SELWYN_NH | clause NH-P3]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[NPS_NH_2025 | clause 2.1]
+Objective
+Natural hazard risk to people and property associated with subdivision, use and development is managed using a risk-based proportionate approach.
+
+Case facts:
+Case SC011
+
+Proposal:
+  - Activity type: commercial-scale crop production facility directly associated with primary production
+  - Lots / buildings: 2
+  - Expected occupancy: Seasonal workers
+  - Vulnerable occupants: no
+  - Design life (years): 40
+
+Site:
+  - Planning zone: Rural zone
+  - Existing use: Primary production land
+  - Hazard overlays: Flood management overlay
+  - Available reports: Flood map extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 2.0
+  - Return period (years): 50
+  - Modelled depth (m): 0.3
+  - Velocity (m/s): 0.2
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: not supplied
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - This case is included to test scope checking; no hazard-specific risk level is supplied.
+
+Question: Use the assistant to decide whether this primary-production proposal is covered by the assessed natural-hazard policy scope.
+
+####################################################################################################
+# P1 | DEV021 | source_authority
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[NPS_NH_GUIDE_2026 | clause Disclaimer]
+Status and limitations
+This guide is intended to clarify policy intent and provide high-level implementation recommendations. It does not prescribe every step in natural hazard risk management.
+The guide is consistent with, and expands on, the policy intent of the NPS-NH, but it is not itself part of the NPS-NH and it is not legal advice.
+Read the guide alongside the National Policy Statement and other relevant official information. Where the two differ in emphasis, the National Policy Statement is the authoritative text.
+
+[NPS_NH_GUIDE_2026 | clause Part 1: Introduction]
+Purpose and organisation of the guide
+The guide explains the context and scope of the NPS-NH and supports practitioners implementing it.
+Part 1 explains the context and scope for the guide. Part 2 outlines the objective and policy approach of the NPS-NH. Part 3 explains what planning processes, natural hazards and activities the NPS-NH applies to. Part 4 steps through each of the implementation clauses. Part 5 explains how the NPS-NH interacts with other relevant policy instruments. Appendix 1 lists additional non-statutory reference material.
+Use the guide to understand implementation intent, while using the NPS-NH itself as the authoritative national policy text.
+
+[NPS_NH_GUIDE_2026 | clause Part 3: Consenting]
+The NPS-NH is designed to apply to resource consenting
+Section 104(1)(b)(iii) of the RMA requires decision-makers to have regard to any relevant national policy statement when deciding a subdivision or land-use consent. This applies until the decision is made, even if the application was lodged before the NPS-NH came into force.
+For discretionary and non-complying activities, all relevant matters can be considered under section 104B, so consent authorities must have regard to relevant provisions of the NPS-NH.
+Under sections 104A (controlled activities) and 104C (restricted discretionary activities), the consent authority can only consider the NPS-NH if natural hazards are explicitly included in the matters over which discretion or control has been restricted in the plan.
+Sections 106 and 106A allow a consent authority to refuse consent, or grant it subject to conditions, if it considers that there is a significant risk from natural hazards. These sections can be used for any consent type.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Best available information]
+Applying the best available information
+Where two sources of hazard information for the same site disagree, these criteria — currency, method, review status and documented uncertainty — are the basis for deciding which is the better available information. The disagreement itself should be recorded rather than resolved silently.
+
+[NPS_NH_GUIDE_2026 | clause Part 5: Other instruments]
+Interaction with other policies and legislation
+Natural hazard risk is also addressed through other legislation. The Building Act 2004 addresses building requirements through the Building Code and related compliance pathways. The Civil Defence Emergency Management Act 2002 focuses on preparing for, responding to and recovering from natural hazard events. The Local Government Official Information and Meetings Act 1987 requires all known natural hazard information held by a council to be included on Land Information Memoranda.
+Clause 1.3(3) directs that the New Zealand Coastal Policy Statement 2010 prevails where there is inconsistency in policy direction on managing natural hazard risk in the coastal environment.
+Because infrastructure is exempted from the NPS-NH, the National Policy Statement for Infrastructure 2025 applies when deciding a consent for infrastructure that is not infrastructure as defined in the RMA, or where existing planning provisions manage infrastructure in areas subject to natural hazards.
+The NPS-NH does not have precedence over the National Policy Statement on Urban Development 2020. Both must be considered and the outcomes sought by each balanced.
+
+Question: If an official implementation guide and the national policy statement discuss the same issue, how should the assistant distinguish their authority in its answer?
+
+####################################################################################################
+# P1 | DEV023 | uncertainty
+####################################################################################################
+Use only the context below to answer the question.
+
+Context:
+[NPS_NH_GUIDE_2026 | clause Part 4: Best available information]
+Applying the best available information
+Where two sources of hazard information for the same site disagree, these criteria — currency, method, review status and documented uncertainty — are the basis for deciding which is the better available information. The disagreement itself should be recorded rather than resolved silently.
+
+[SELWYN_NH | clause NH-P11]
+Policy — Defences against water
+Avoid locating any residential unit or other asset of high value, including important infrastructure, between any waterbody and any defence against water designed or used to contain floodwater from that waterbody, unless that asset has a functional need or operational need to be in that location.
+Teaching note. Land on the waterway side of a flood defence remains exposed to the full design event and is not protected by the defence.
+
+[SELWYN_NH | clause NH-Overlays]
+Overlays used in this chapter
+The chapter manages natural hazards through mapped overlays. Those relevant to this extract are the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay. The chapter also uses the Coastal Erosion Overlay, Coastal Inundation Overlay, Tsunami Policy Overlay, Greendale Fault Overlay, Fault Investigation Overlay and Fault Awareness Overlay, which are outside the scope of this assessment.
+An overlay applies in addition to the underlying zone provisions. A site may therefore be subject both to the overlay provisions and to the rules of its zone.
+The two flood overlays carry different rules. Within the Plains Flood Management Overlay a new residential unit or principal building is permitted subject to the NH-R2.3 conditions. Within the Waimakariri Flood Management Overlay the same activity is non-complying under NH-R2.5.
+Teaching note. The presence of an overlay indicates mapped hazard exposure. The absence of an overlay on a supplied record is not evidence that a site is free from that hazard; it may mean only that the site has not been mapped, or that the supplied record does not include overlay information. The chapter itself recognises this in the Overview, which describes the Council's risk-based approach as including managing risk when there is uncertain or insufficient natural hazard risk information.
+
+[SELWYN_NH | clause NH-REQ4.1]
+Requirement — Natural hazards and earthworks
+Within the Coastal Inundation Overlay, the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay, the activity does not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Where compliance with NH-REQ4.1 is not achieved, the activity is restricted discretionary (RDIS), with discretion restricted to NH-MAT1 Natural Hazards Generally.
+Teaching note. This is the earthworks standard that gives effect to policy NH-P12. Compensatory storage or an equivalent measure is the usual way a proposal demonstrates that displaced floodwater is accommodated on site.
+
+[SELWYN_NH | clause NH-P12]
+Policy — Earthworks in flood management overlays
+Manage earthworks undertaken in the Waimakariri Flood Management Overlay and the Plains Flood Management Overlay to ensure that they do not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Teaching note. Earthworks that raise ground level within a flood management overlay reduce flood storage and can raise flood levels on adjoining land. The volume displaced and its effect on surrounding flood levels are the matters this policy is directed at. An assertion that a proposal will not increase flood risk on other sites is not sufficient without supporting analysis of the changed flood levels and flow paths.
+
+Case facts:
+Case SC006
+
+Proposal:
+  - Activity type: small commercial building
+  - Lots / buildings: 1
+  - Expected occupancy: Up to 35 customers and 10 staff
+  - Vulnerable occupants: no
+  - Design life (years): 50
+
+Site:
+  - Planning zone: Commercial zone
+  - Existing use: Vacant serviced site
+  - Hazard overlays: Flood management overlay
+  - Available reports: Older flood summary; Updated council flood extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.0
+  - Return period (years): 100
+  - Modelled depth (m): 0.25
+  - Velocity (m/s): 0.2
+  - Climate change considered: not supplied
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.2
+  - Drainage: Connection to existing network
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - The two supplied flood sources conflict.
+  - Climate-change assumptions are not stated in the older source.
+
+Question: Two supplied flood sources disagree. What should the assistant do with the conflict instead of selecting the more convenient value?
+
+####################################################################################################
+# P2 | DEV001 | direct_policy
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_2025 | clause 2.2 Policy 1]
+Risk matrix assessment
+Policy 1: When considering natural hazard risk associated with subdivision, use or development, the risk level must be assessed using the risk matrix.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Risk level]
+Combining likelihood and consequence
+Policy 1 directs that the risk level must be assessed using the risk matrix. The matrix combines the likelihood and consequence of a particular natural hazard event to determine whether the level of natural hazard risk is low, medium, high or very high.
+The matrix is a deterministic lookup. It should not be re-derived, approximated or reasoned about qualitatively when the likelihood and consequence levels are known.
+
+[NPS_NH_2025 | clause 1.4]
+Interpretation
+In this National Policy Statement:
+Act means the Resource Management Act 1991.
+commencement date means the date on which this National Policy Statement comes into force, as identified in clause 1.2.
+decision-maker means any person exercising functions or powers under the Act.
+high natural hazard risk means natural hazard risk assessed as 'high' using the risk matrix.
+medium natural hazard risk means natural hazard risk assessed as 'medium' using the risk matrix.
+risk matrix means the risk matrix, including the likelihood and consequence tables, in Appendix 1.
+significant natural hazard risk means natural hazard risk assessed as 'medium', 'high' or 'very high' using the risk matrix.
+very high natural hazard risk means natural hazard risk assessed as 'very high' using the risk matrix.
+Terms defined in the Act and used in this National Policy Statement have the meanings given in the Act, except as otherwise specified. Terms defined in the National Planning Standards issued under section 58E of the Act have the meanings given in those Standards, unless otherwise specified.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_2025 | clause Appendix 1]
+Risk matrix, likelihood and consequence tables
+When undertaking an assessment of natural hazard risk, the following risk matrix and associated tables must be applied to enable assessment of the consequence level and likelihood level and to determine the applicable level of natural hazard risk.
+Figure 1 — Risk matrix. The same 35 likelihood x consequence mappings are supplied in machine-readable form in risk_matrix.csv. For this assessment, apply the deterministic lookup rather than asking a language model to reproduce the matrix from memory.
+[Table — rows: Consequence; columns: Likelihood]
+Consequence = Catastrophic: Almost certain → Very high; Very likely → Very high; Likely → Very high; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Major: Almost certain → Very high; Very likely → Very high; Likely → High; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Moderate: Almost certain → High; Very likely → High; Likely → High; Possible → Medium; Unlikely → Medium; Rare → Low; Very rare → Low
+Consequence = Minor: Almost certain → Medium; Very likely → Medium; Likely → Medium; Possible → Medium; Unlikely → Low; Rare → Low; Very rare → Low
+Consequence = Negligible: Almost certain → Low; Very likely → Low; Likely → Low; Possible → Low; Unlikely → Low; Rare → Low; Very rare → Low
+
+Case facts: none supplied -- this is a general policy question, not a site-specific one.
+
+Question: Which national policy requires natural-hazard risk to be assessed using a risk matrix?
+
+####################################################################################################
+# P2 | DEV005 | case_specific
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[NPS_NH_2025 | clause 2.2 Policy 5]
+Best available information
+Policy 5: Natural hazard risk assessment and decisions must be based on the best available information and must be made even when that information is uncertain or incomplete.
+
+[NPS_NH_2025 | clause 2.2 Policy 2]
+Proportionate management
+Policy 2: Natural hazard risk associated with subdivision, use and development must be managed using an approach that is proportionate to the level of natural hazard risk.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+
+[NPS_NH_2025 | clause 2.2 Policy 4]
+Risk created or increased on other sites
+Policy 4: Where subdivision, use or development, including any associated mitigation measures, will create or increase significant natural hazard risk on other sites, that risk must be avoided or mitigated using an approach that is proportionate to the level of natural hazard risk.
+
+Case facts:
+Case SC001
+
+Proposal:
+  - Activity type: 12-lot residential subdivision
+  - Lots / buildings: 12
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Vacant land
+  - Hazard overlays: Plains flood management overlay
+  - Available reports: Council flood assessment summary
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.43
+  - Return period (years): 70
+  - Modelled depth (m): 0.35
+  - Velocity (m/s): 0.25
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Supplied teaching map indicates low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.3
+  - Drainage: Concept stormwater plan supplied
+  - Foundation design: not supplied
+  - Access / evacuation: Road access remains available in modelled event
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - Final finished-floor levels have not yet been certified.
+
+Question: For this subdivision, identify the relevant flood-related policy evidence and explain what supplied facts are most important to a preliminary assessment.
+
+####################################################################################################
+# P2 | DEV006 | case_specific
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[SELWYN_NH | clause NH-P13]
+Policy — Liquefaction
+Provide for subdivision on flat land where the liquefaction hazard has been appropriately identified and assessed, and can be adequately remedied or mitigated.
+Teaching note. Regional or district-scale susceptibility mapping indicates the possible presence of liquefiable ground. It does not establish the liquefaction hazard on an individual site, and it is not a substitute for a site-specific geotechnical assessment by a suitably qualified and experienced person.
+Teaching note. Where a site-specific geotechnical assessment has not been provided, the liquefaction hazard has not been appropriately identified and assessed for the purposes of this policy.
+
+[CRPS_CH11 | clause 11.3.3]
+Policy — Earthquake hazards
+New subdivision, use and development of land on or close to an active earthquake fault trace, or in areas susceptible to liquefaction and lateral spreading, shall be managed in order to avoid or mitigate the adverse effects of fault rupture, liquefaction and lateral spreading.
+Risk assessment should occur before intensification or other development in susceptible areas. Susceptibility can vary within a mapped area, so site-specific investigation may be needed to establish the actual ground conditions on a particular site.
+This policy implements Objective 11.2.1.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Other sites]
+Managing risk on other sites
+Clause 3.3(2)(c) requires that subdivision, use or development, including any associated mitigation measures, avoids or mitigates the creation of, or increase in, significant risk on other sites.
+Whether that risk is to be avoided or mitigated depends on what response is proportionate to the level of risk posed.
+Mitigation works that redirect or displace floodwater are a common way in which a proposal can create or increase risk on a neighbouring site.
+
+[SELWYN_NH | clause NH-P3]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Climate change]
+Impacts of climate change
+Policy 6 requires a risk assessment to consider the potential impacts of climate change to at least 100 years into the future. The 100-year timeframe applies when using existing hazard data and information in the risk assessment process.
+If information that includes climate change over the 100-year timeframe is not available or applicable, Policy 5 — assessment and decisions must be based on the best available information — applies.
+There is no single statutory requirement mandating a specific future projection. The national adaptation plan is principles-based rather than prescriptive, and recommends consideration of a range of plausible future conditions, and tailoring the scenario used to suit the longevity and significance of the activity being considered.
+The impacts of climate change will increase the likelihood of climate-sensitive hazards such as flooding and rainfall-induced landslips. What is currently a 1% AEP event may in future become a 2% AEP event, and at the same time have increased consequences, so what is a low risk now may become a high risk in the future.
+Changes to the risk profile under different climate scenarios can be assessed using the matrix in two ways: by holding the event likelihood constant and adjusting the consequence rating to reflect increased impacts; or by assessing how an event of a given magnitude may increase in likelihood over time.
+
+Case facts:
+Case SC002
+
+Proposal:
+  - Activity type: 8-lot residential subdivision
+  - Lots / buildings: 8
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Large residential parcel
+  - Hazard overlays: Liquefaction susceptibility area
+  - Available reports: Regional liquefaction mapping extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 0.5
+  - Return period (years): 200
+  - Modelled depth (m): 0.05
+  - Velocity (m/s): not supplied
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: medium
+  - Mapped evidence: Mapped susceptibility supplied
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: Existing network connection proposed
+  - Foundation design: No site-specific foundation design supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: High
+
+Known uncertainties (as supplied):
+  - No site-specific geotechnical assessment has been supplied.
+
+Question: For this subdivision, what policy evidence is relevant to liquefaction and what missing information should be highlighted?
+
+####################################################################################################
+# P2 | DEV011 | multi_document
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[SELWYN_NH | clause NH-P10]
+Policy — Plains Flood Management Overlay
+In areas within the Plains Flood Management Overlay that are not a high hazard area, provide for:
+1. important infrastructure and land transport infrastructure; and
+2. any other new subdivision, use, and development only where every new residential unit or principal building has an appropriate floor level above the 200 year Average Return Interval (ARI) design flood level.
+Teaching note. This policy states the requirement qualitatively as an appropriate floor level. The numeric standard is set by NH-SCHED1, which specifies a minimum finished floor level 300 mm above the 200-year ARI flood level. Assess a proposed floor level against NH-SCHED1 and the rule NH-R2.3, not against this policy alone.
+Teaching note. Where no Flood Assessment Certificate has been issued for the site, the design flood level has not been established and a proposed floor level cannot be evaluated against this policy on the supplied information.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+Teaching note. This schedule is where the 300 mm figure is set. A draft, indicative or unissued certificate does not establish a minimum finished floor level, so where only a draft is available the required floor level has not been established for the purposes of NH-R2.3.
+Teaching note. A Flood Assessment Certificate addresses flood levels and high hazard area status only. It does not address liquefaction, land stability, or any other natural hazard, and it is not a building consent, resource consent or engineering certification.
+
+Case facts:
+Case SC001
+
+Proposal:
+  - Activity type: 12-lot residential subdivision
+  - Lots / buildings: 12
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Vacant land
+  - Hazard overlays: Plains flood management overlay
+  - Available reports: Council flood assessment summary
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.43
+  - Return period (years): 70
+  - Modelled depth (m): 0.35
+  - Velocity (m/s): 0.25
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Supplied teaching map indicates low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.3
+  - Drainage: Concept stormwater plan supplied
+  - Foundation design: not supplied
+  - Access / evacuation: Road access remains available in modelled event
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - Final finished-floor levels have not yet been certified.
+
+Question: Identify the national, regional, and district-level evidence that is relevant to flood risk for this residential subdivision.
+
+####################################################################################################
+# P2 | DEV015 | missing_information
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[SELWYN_NH | clause NH-R2.4]
+Rule — Activity status where NH-R2.3 is not met
+Where compliance with NH-R2.3.a or NH-R2.3.b is not achieved, the activity is non-complying (NC).
+Where compliance with NH-R2.3.c is not achieved, the activity is restricted discretionary (RDIS).
+Teaching note. The two failure paths are not equivalent. Being in a high hazard area, or between a water body and its stopbank, makes the activity non-complying, which is a substantially higher consent hurdle. Failing only the certified floor level makes it restricted discretionary. A response that treats any non-compliance with NH-R2.3 as merely requiring consent understates the first case.
+
+[NPS_NH_GUIDE_2026 | clause Part 5: Other instruments]
+Interaction with other policies and legislation
+Natural hazard risk is also addressed through other legislation. The Building Act 2004 addresses building requirements through the Building Code and related compliance pathways. The Civil Defence Emergency Management Act 2002 focuses on preparing for, responding to and recovering from natural hazard events. The Local Government Official Information and Meetings Act 1987 requires all known natural hazard information held by a council to be included on Land Information Memoranda.
+Clause 1.3(3) directs that the New Zealand Coastal Policy Statement 2010 prevails where there is inconsistency in policy direction on managing natural hazard risk in the coastal environment.
+Because infrastructure is exempted from the NPS-NH, the National Policy Statement for Infrastructure 2025 applies when deciding a consent for infrastructure that is not infrastructure as defined in the RMA, or where existing planning provisions manage infrastructure in areas subject to natural hazards.
+The NPS-NH does not have precedence over the National Policy Statement on Urban Development 2020. Both must be considered and the outcomes sought by each balanced.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[CRPS_CH11 | clause 11.3.5]
+Policy — General risk management approach
+For natural hazards or areas not addressed by Policies 11.3.1, 11.3.2 and 11.3.3, subdivision, use or development of land shall be avoided if the risk from natural hazards is unacceptable.
+When determining whether risk is unacceptable, the following matters will be considered: 1. the likelihood of the natural hazard event; and 2. the potential consequence of the natural hazard event for people and communities, property and infrastructure, the environment, and emergency response organisations.
+Where there is uncertainty in the likelihood or consequences of a natural hazard event, the local authority shall adopt a precautionary approach.
+Formal risk management techniques should be used, such as AS/NZS ISO 31000 Risk Management or AS/NZS 1170.0 Structural Design Actions.
+This policy implements Objective 11.2.1.
+
+[NPS_NH_GUIDE_2026 | clause Appendix 1]
+Additional reference material
+The guide lists non-statutory documents that provide additional information on the risk-based planning approach and on land-use planning for different hazards. Some require updating and may include information superseded by evolving best practice, but may still provide useful context.
+The listed material includes guidance on integrating tsunami inundation modelling into risk-based land-use planning; landslide planning guidance; AS/NZS ISO 31000:2018 Risk Management; guidance on planning for development of land on or close to active faults; planning and engineering guidance for potentially liquefaction-prone land; guidance on preparing for future flooding; coastal hazards and climate change guidance; and risk-based land-use planning for natural hazard risk reduction.
+For COMP662 Assignment 2, these referenced documents are not part of the supplied corpus. A response must not cite them as retrieved evidence.
+
+Case facts:
+Case SC010
+
+Proposal:
+  - Activity type: small community hall
+  - Lots / buildings: 1
+  - Expected occupancy: Up to 120 people
+  - Vulnerable occupants: no
+  - Design life (years): 75
+
+Site:
+  - Planning zone: Rural township zone
+  - Existing use: Vacant lot
+  - Hazard overlays: none supplied
+  - Available reports: none supplied
+
+Flood:
+  - Evidence available: no
+  - AEP (%): not supplied
+  - Return period (years): not supplied
+  - Modelled depth (m): not supplied
+  - Velocity (m/s): not supplied
+  - Climate change considered: not supplied
+
+Liquefaction:
+  - Susceptibility: not supplied
+  - Mapped evidence: not supplied
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: not supplied
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - No site-specific hazard information is supplied.
+  - The absence of a supplied overlay is not evidence that no hazard exists.
+
+Question: The case contains no supplied hazard reports. What can the assistant say, and what must it avoid assuming?
+
+####################################################################################################
+# P2 | DEV019 | out_of_scope
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Part 4: Assess the risk]
+Assessing risk for a specific activity and hazard
+The NPS-NH directs a risk-based approach — assessing the risk to a specific activity from a specific natural hazard. This requires decision-makers to consider the location, type and design of the activity for which consent is sought.
+Clause 3.2 of the NPS-NH identifies the key components required in a risk-based assessment: the likelihood of the event, the consequence for life and property, and consideration of both mitigation measures and residual risk.
+Where a proposal is exposed to more than one natural hazard, the risk assessment is carried out separately for each hazard.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_2025 | clause 3.4]
+Best available information
+(1) When undertaking risk assessments and making decisions for the purposes of managing natural hazard risk, decision-makers must use the best information available at the time of making the assessment or decision.
+(2) When information is uncertain or incomplete, decision-makers must continue to undertake risk assessments and make decisions using the best available information, and must not delay making decisions solely because of uncertainty about the quality or quantity of the information available.
+
+[SELWYN_NH | clause NH-P3]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[NPS_NH_2025 | clause 2.1]
+Objective
+Natural hazard risk to people and property associated with subdivision, use and development is managed using a risk-based proportionate approach.
+
+Case facts:
+Case SC011
+
+Proposal:
+  - Activity type: commercial-scale crop production facility directly associated with primary production
+  - Lots / buildings: 2
+  - Expected occupancy: Seasonal workers
+  - Vulnerable occupants: no
+  - Design life (years): 40
+
+Site:
+  - Planning zone: Rural zone
+  - Existing use: Primary production land
+  - Hazard overlays: Flood management overlay
+  - Available reports: Flood map extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 2.0
+  - Return period (years): 50
+  - Modelled depth (m): 0.3
+  - Velocity (m/s): 0.2
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: not supplied
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - This case is included to test scope checking; no hazard-specific risk level is supplied.
+
+Question: Use the assistant to decide whether this primary-production proposal is covered by the assessed natural-hazard policy scope.
+
+####################################################################################################
+# P2 | DEV021 | source_authority
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Disclaimer]
+Status and limitations
+This guide is intended to clarify policy intent and provide high-level implementation recommendations. It does not prescribe every step in natural hazard risk management.
+The guide is consistent with, and expands on, the policy intent of the NPS-NH, but it is not itself part of the NPS-NH and it is not legal advice.
+Read the guide alongside the National Policy Statement and other relevant official information. Where the two differ in emphasis, the National Policy Statement is the authoritative text.
+
+[NPS_NH_GUIDE_2026 | clause Part 1: Introduction]
+Purpose and organisation of the guide
+The guide explains the context and scope of the NPS-NH and supports practitioners implementing it.
+Part 1 explains the context and scope for the guide. Part 2 outlines the objective and policy approach of the NPS-NH. Part 3 explains what planning processes, natural hazards and activities the NPS-NH applies to. Part 4 steps through each of the implementation clauses. Part 5 explains how the NPS-NH interacts with other relevant policy instruments. Appendix 1 lists additional non-statutory reference material.
+Use the guide to understand implementation intent, while using the NPS-NH itself as the authoritative national policy text.
+
+[NPS_NH_GUIDE_2026 | clause Part 3: Consenting]
+The NPS-NH is designed to apply to resource consenting
+Section 104(1)(b)(iii) of the RMA requires decision-makers to have regard to any relevant national policy statement when deciding a subdivision or land-use consent. This applies until the decision is made, even if the application was lodged before the NPS-NH came into force.
+For discretionary and non-complying activities, all relevant matters can be considered under section 104B, so consent authorities must have regard to relevant provisions of the NPS-NH.
+Under sections 104A (controlled activities) and 104C (restricted discretionary activities), the consent authority can only consider the NPS-NH if natural hazards are explicitly included in the matters over which discretion or control has been restricted in the plan.
+Sections 106 and 106A allow a consent authority to refuse consent, or grant it subject to conditions, if it considers that there is a significant risk from natural hazards. These sections can be used for any consent type.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Best available information]
+Applying the best available information
+Where two sources of hazard information for the same site disagree, these criteria — currency, method, review status and documented uncertainty — are the basis for deciding which is the better available information. The disagreement itself should be recorded rather than resolved silently.
+
+[NPS_NH_GUIDE_2026 | clause Part 5: Other instruments]
+Interaction with other policies and legislation
+Natural hazard risk is also addressed through other legislation. The Building Act 2004 addresses building requirements through the Building Code and related compliance pathways. The Civil Defence Emergency Management Act 2002 focuses on preparing for, responding to and recovering from natural hazard events. The Local Government Official Information and Meetings Act 1987 requires all known natural hazard information held by a council to be included on Land Information Memoranda.
+Clause 1.3(3) directs that the New Zealand Coastal Policy Statement 2010 prevails where there is inconsistency in policy direction on managing natural hazard risk in the coastal environment.
+Because infrastructure is exempted from the NPS-NH, the National Policy Statement for Infrastructure 2025 applies when deciding a consent for infrastructure that is not infrastructure as defined in the RMA, or where existing planning provisions manage infrastructure in areas subject to natural hazards.
+The NPS-NH does not have precedence over the National Policy Statement on Urban Development 2020. Both must be considered and the outcomes sought by each balanced.
+
+Case facts: none supplied -- this is a general policy question, not a site-specific one.
+
+Question: If an official implementation guide and the national policy statement discuss the same issue, how should the assistant distinguish their authority in its answer?
+
+####################################################################################################
+# P2 | DEV023 | uncertainty
+####################################################################################################
+You are answering a natural-hazard land-use planning question using only the material supplied below.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Cite every policy claim as (document_id, clause_id), for example (NPS_NH_2025, 2.2 Policy 3). Cite only
+document/clause pairs that appear in the retrieved evidence below. Never cite a case fact -- state it directly.
+
+Structure your answer in exactly these sections, in this order. If a section does not apply because no
+case was supplied or nothing in the evidence speaks to it, write the section heading and one line saying so
+-- do not omit the heading and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Part 4: Best available information]
+Applying the best available information
+Where two sources of hazard information for the same site disagree, these criteria — currency, method, review status and documented uncertainty — are the basis for deciding which is the better available information. The disagreement itself should be recorded rather than resolved silently.
+
+[SELWYN_NH | clause NH-P11]
+Policy — Defences against water
+Avoid locating any residential unit or other asset of high value, including important infrastructure, between any waterbody and any defence against water designed or used to contain floodwater from that waterbody, unless that asset has a functional need or operational need to be in that location.
+Teaching note. Land on the waterway side of a flood defence remains exposed to the full design event and is not protected by the defence.
+
+[SELWYN_NH | clause NH-Overlays]
+Overlays used in this chapter
+The chapter manages natural hazards through mapped overlays. Those relevant to this extract are the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay. The chapter also uses the Coastal Erosion Overlay, Coastal Inundation Overlay, Tsunami Policy Overlay, Greendale Fault Overlay, Fault Investigation Overlay and Fault Awareness Overlay, which are outside the scope of this assessment.
+An overlay applies in addition to the underlying zone provisions. A site may therefore be subject both to the overlay provisions and to the rules of its zone.
+The two flood overlays carry different rules. Within the Plains Flood Management Overlay a new residential unit or principal building is permitted subject to the NH-R2.3 conditions. Within the Waimakariri Flood Management Overlay the same activity is non-complying under NH-R2.5.
+Teaching note. The presence of an overlay indicates mapped hazard exposure. The absence of an overlay on a supplied record is not evidence that a site is free from that hazard; it may mean only that the site has not been mapped, or that the supplied record does not include overlay information. The chapter itself recognises this in the Overview, which describes the Council's risk-based approach as including managing risk when there is uncertain or insufficient natural hazard risk information.
+
+[SELWYN_NH | clause NH-REQ4.1]
+Requirement — Natural hazards and earthworks
+Within the Coastal Inundation Overlay, the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay, the activity does not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Where compliance with NH-REQ4.1 is not achieved, the activity is restricted discretionary (RDIS), with discretion restricted to NH-MAT1 Natural Hazards Generally.
+Teaching note. This is the earthworks standard that gives effect to policy NH-P12. Compensatory storage or an equivalent measure is the usual way a proposal demonstrates that displaced floodwater is accommodated on site.
+
+[SELWYN_NH | clause NH-P12]
+Policy — Earthworks in flood management overlays
+Manage earthworks undertaken in the Waimakariri Flood Management Overlay and the Plains Flood Management Overlay to ensure that they do not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Teaching note. Earthworks that raise ground level within a flood management overlay reduce flood storage and can raise flood levels on adjoining land. The volume displaced and its effect on surrounding flood levels are the matters this policy is directed at. An assertion that a proposal will not increase flood risk on other sites is not sufficient without supporting analysis of the changed flood levels and flow paths.
+
+Case facts:
+Case SC006
+
+Proposal:
+  - Activity type: small commercial building
+  - Lots / buildings: 1
+  - Expected occupancy: Up to 35 customers and 10 staff
+  - Vulnerable occupants: no
+  - Design life (years): 50
+
+Site:
+  - Planning zone: Commercial zone
+  - Existing use: Vacant serviced site
+  - Hazard overlays: Flood management overlay
+  - Available reports: Older flood summary; Updated council flood extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.0
+  - Return period (years): 100
+  - Modelled depth (m): 0.25
+  - Velocity (m/s): 0.2
+  - Climate change considered: not supplied
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.2
+  - Drainage: Connection to existing network
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - The two supplied flood sources conflict.
+  - Climate-change assumptions are not stated in the older source.
+
+Question: Two supplied flood sources disagree. What should the assistant do with the conflict instead of selecting the more convenient value?
+
+####################################################################################################
+# P3 | DEV001 | direct_policy
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_2025 | clause 2.2 Policy 1]
+Risk matrix assessment
+Policy 1: When considering natural hazard risk associated with subdivision, use or development, the risk level must be assessed using the risk matrix.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Risk level]
+Combining likelihood and consequence
+Policy 1 directs that the risk level must be assessed using the risk matrix. The matrix combines the likelihood and consequence of a particular natural hazard event to determine whether the level of natural hazard risk is low, medium, high or very high.
+The matrix is a deterministic lookup. It should not be re-derived, approximated or reasoned about qualitatively when the likelihood and consequence levels are known.
+
+[NPS_NH_2025 | clause 1.4]
+Interpretation
+In this National Policy Statement:
+Act means the Resource Management Act 1991.
+commencement date means the date on which this National Policy Statement comes into force, as identified in clause 1.2.
+decision-maker means any person exercising functions or powers under the Act.
+high natural hazard risk means natural hazard risk assessed as 'high' using the risk matrix.
+medium natural hazard risk means natural hazard risk assessed as 'medium' using the risk matrix.
+risk matrix means the risk matrix, including the likelihood and consequence tables, in Appendix 1.
+significant natural hazard risk means natural hazard risk assessed as 'medium', 'high' or 'very high' using the risk matrix.
+very high natural hazard risk means natural hazard risk assessed as 'very high' using the risk matrix.
+Terms defined in the Act and used in this National Policy Statement have the meanings given in the Act, except as otherwise specified. Terms defined in the National Planning Standards issued under section 58E of the Act have the meanings given in those Standards, unless otherwise specified.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_2025 | clause Appendix 1]
+Risk matrix, likelihood and consequence tables
+When undertaking an assessment of natural hazard risk, the following risk matrix and associated tables must be applied to enable assessment of the consequence level and likelihood level and to determine the applicable level of natural hazard risk.
+Figure 1 — Risk matrix. The same 35 likelihood x consequence mappings are supplied in machine-readable form in risk_matrix.csv. For this assessment, apply the deterministic lookup rather than asking a language model to reproduce the matrix from memory.
+[Table — rows: Consequence; columns: Likelihood]
+Consequence = Catastrophic: Almost certain → Very high; Very likely → Very high; Likely → Very high; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Major: Almost certain → Very high; Very likely → Very high; Likely → High; Possible → High; Unlikely → Medium; Rare → Medium; Very rare → Medium
+Consequence = Moderate: Almost certain → High; Very likely → High; Likely → High; Possible → Medium; Unlikely → Medium; Rare → Low; Very rare → Low
+Consequence = Minor: Almost certain → Medium; Very likely → Medium; Likely → Medium; Possible → Medium; Unlikely → Low; Rare → Low; Very rare → Low
+Consequence = Negligible: Almost certain → Low; Very likely → Low; Likely → Low; Possible → Low; Unlikely → Low; Rare → Low; Very rare → Low
+
+Case facts: none supplied -- this is a general policy question, not a site-specific one.
+
+Question: Which national policy requires natural-hazard risk to be assessed using a risk matrix?
+
+####################################################################################################
+# P3 | DEV005 | case_specific
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[NPS_NH_2025 | clause 2.2 Policy 5]
+Best available information
+Policy 5: Natural hazard risk assessment and decisions must be based on the best available information and must be made even when that information is uncertain or incomplete.
+
+[NPS_NH_2025 | clause 2.2 Policy 2]
+Proportionate management
+Policy 2: Natural hazard risk associated with subdivision, use and development must be managed using an approach that is proportionate to the level of natural hazard risk.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+
+[NPS_NH_2025 | clause 2.2 Policy 4]
+Risk created or increased on other sites
+Policy 4: Where subdivision, use or development, including any associated mitigation measures, will create or increase significant natural hazard risk on other sites, that risk must be avoided or mitigated using an approach that is proportionate to the level of natural hazard risk.
+
+Case facts:
+Case SC001
+
+Proposal:
+  - Activity type: 12-lot residential subdivision
+  - Lots / buildings: 12
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Vacant land
+  - Hazard overlays: Plains flood management overlay
+  - Available reports: Council flood assessment summary
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.43
+  - Return period (years): 70
+  - Modelled depth (m): 0.35
+  - Velocity (m/s): 0.25
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Supplied teaching map indicates low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.3
+  - Drainage: Concept stormwater plan supplied
+  - Foundation design: not supplied
+  - Access / evacuation: Road access remains available in modelled event
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - Final finished-floor levels have not yet been certified.
+
+Question: For this subdivision, identify the relevant flood-related policy evidence and explain what supplied facts are most important to a preliminary assessment.
+
+####################################################################################################
+# P3 | DEV006 | case_specific
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[SELWYN_NH | clause NH-P13]
+Policy — Liquefaction
+Provide for subdivision on flat land where the liquefaction hazard has been appropriately identified and assessed, and can be adequately remedied or mitigated.
+Teaching note. Regional or district-scale susceptibility mapping indicates the possible presence of liquefiable ground. It does not establish the liquefaction hazard on an individual site, and it is not a substitute for a site-specific geotechnical assessment by a suitably qualified and experienced person.
+Teaching note. Where a site-specific geotechnical assessment has not been provided, the liquefaction hazard has not been appropriately identified and assessed for the purposes of this policy.
+
+[CRPS_CH11 | clause 11.3.3]
+Policy — Earthquake hazards
+New subdivision, use and development of land on or close to an active earthquake fault trace, or in areas susceptible to liquefaction and lateral spreading, shall be managed in order to avoid or mitigate the adverse effects of fault rupture, liquefaction and lateral spreading.
+Risk assessment should occur before intensification or other development in susceptible areas. Susceptibility can vary within a mapped area, so site-specific investigation may be needed to establish the actual ground conditions on a particular site.
+This policy implements Objective 11.2.1.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Other sites]
+Managing risk on other sites
+Clause 3.3(2)(c) requires that subdivision, use or development, including any associated mitigation measures, avoids or mitigates the creation of, or increase in, significant risk on other sites.
+Whether that risk is to be avoided or mitigated depends on what response is proportionate to the level of risk posed.
+Mitigation works that redirect or displace floodwater are a common way in which a proposal can create or increase risk on a neighbouring site.
+
+[SELWYN_NH | clause NH-P3]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Climate change]
+Impacts of climate change
+Policy 6 requires a risk assessment to consider the potential impacts of climate change to at least 100 years into the future. The 100-year timeframe applies when using existing hazard data and information in the risk assessment process.
+If information that includes climate change over the 100-year timeframe is not available or applicable, Policy 5 — assessment and decisions must be based on the best available information — applies.
+There is no single statutory requirement mandating a specific future projection. The national adaptation plan is principles-based rather than prescriptive, and recommends consideration of a range of plausible future conditions, and tailoring the scenario used to suit the longevity and significance of the activity being considered.
+The impacts of climate change will increase the likelihood of climate-sensitive hazards such as flooding and rainfall-induced landslips. What is currently a 1% AEP event may in future become a 2% AEP event, and at the same time have increased consequences, so what is a low risk now may become a high risk in the future.
+Changes to the risk profile under different climate scenarios can be assessed using the matrix in two ways: by holding the event likelihood constant and adjusting the consequence rating to reflect increased impacts; or by assessing how an event of a given magnitude may increase in likelihood over time.
+
+Case facts:
+Case SC002
+
+Proposal:
+  - Activity type: 8-lot residential subdivision
+  - Lots / buildings: 8
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Large residential parcel
+  - Hazard overlays: Liquefaction susceptibility area
+  - Available reports: Regional liquefaction mapping extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 0.5
+  - Return period (years): 200
+  - Modelled depth (m): 0.05
+  - Velocity (m/s): not supplied
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: medium
+  - Mapped evidence: Mapped susceptibility supplied
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: Existing network connection proposed
+  - Foundation design: No site-specific foundation design supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: High
+
+Known uncertainties (as supplied):
+  - No site-specific geotechnical assessment has been supplied.
+
+Question: For this subdivision, what policy evidence is relevant to liquefaction and what missing information should be highlighted?
+
+####################################################################################################
+# P3 | DEV011 | multi_document
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[SELWYN_NH | clause NH-P10]
+Policy — Plains Flood Management Overlay
+In areas within the Plains Flood Management Overlay that are not a high hazard area, provide for:
+1. important infrastructure and land transport infrastructure; and
+2. any other new subdivision, use, and development only where every new residential unit or principal building has an appropriate floor level above the 200 year Average Return Interval (ARI) design flood level.
+Teaching note. This policy states the requirement qualitatively as an appropriate floor level. The numeric standard is set by NH-SCHED1, which specifies a minimum finished floor level 300 mm above the 200-year ARI flood level. Assess a proposed floor level against NH-SCHED1 and the rule NH-R2.3, not against this policy alone.
+Teaching note. Where no Flood Assessment Certificate has been issued for the site, the design flood level has not been established and a proposed floor level cannot be evaluated against this policy on the supplied information.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[SELWYN_NH | clause NH-SCHED1]
+Schedule — Flood Assessment Certificates
+Teaching note. This schedule is where the 300 mm figure is set. A draft, indicative or unissued certificate does not establish a minimum finished floor level, so where only a draft is available the required floor level has not been established for the purposes of NH-R2.3.
+Teaching note. A Flood Assessment Certificate addresses flood levels and high hazard area status only. It does not address liquefaction, land stability, or any other natural hazard, and it is not a building consent, resource consent or engineering certification.
+
+Case facts:
+Case SC001
+
+Proposal:
+  - Activity type: 12-lot residential subdivision
+  - Lots / buildings: 12
+  - Expected occupancy: Typical residential households
+  - Vulnerable occupants: no
+  - Design life (years): 100
+
+Site:
+  - Planning zone: Residential zone
+  - Existing use: Vacant land
+  - Hazard overlays: Plains flood management overlay
+  - Available reports: Council flood assessment summary
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.43
+  - Return period (years): 70
+  - Modelled depth (m): 0.35
+  - Velocity (m/s): 0.25
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Supplied teaching map indicates low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.3
+  - Drainage: Concept stormwater plan supplied
+  - Foundation design: not supplied
+  - Access / evacuation: Road access remains available in modelled event
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - Final finished-floor levels have not yet been certified.
+
+Question: Identify the national, regional, and district-level evidence that is relevant to flood risk for this residential subdivision.
+
+####################################################################################################
+# P3 | DEV015 | missing_information
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[SELWYN_NH | clause NH-R2.4]
+Rule — Activity status where NH-R2.3 is not met
+Where compliance with NH-R2.3.a or NH-R2.3.b is not achieved, the activity is non-complying (NC).
+Where compliance with NH-R2.3.c is not achieved, the activity is restricted discretionary (RDIS).
+Teaching note. The two failure paths are not equivalent. Being in a high hazard area, or between a water body and its stopbank, makes the activity non-complying, which is a substantially higher consent hurdle. Failing only the certified floor level makes it restricted discretionary. A response that treats any non-compliance with NH-R2.3 as merely requiring consent understates the first case.
+
+[NPS_NH_GUIDE_2026 | clause Part 5: Other instruments]
+Interaction with other policies and legislation
+Natural hazard risk is also addressed through other legislation. The Building Act 2004 addresses building requirements through the Building Code and related compliance pathways. The Civil Defence Emergency Management Act 2002 focuses on preparing for, responding to and recovering from natural hazard events. The Local Government Official Information and Meetings Act 1987 requires all known natural hazard information held by a council to be included on Land Information Memoranda.
+Clause 1.3(3) directs that the New Zealand Coastal Policy Statement 2010 prevails where there is inconsistency in policy direction on managing natural hazard risk in the coastal environment.
+Because infrastructure is exempted from the NPS-NH, the National Policy Statement for Infrastructure 2025 applies when deciding a consent for infrastructure that is not infrastructure as defined in the RMA, or where existing planning provisions manage infrastructure in areas subject to natural hazards.
+The NPS-NH does not have precedence over the National Policy Statement on Urban Development 2020. Both must be considered and the outcomes sought by each balanced.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Detailed assessment]
+When a detailed risk assessment is required
+Under clause 3.3(1), decision-makers must have regard to the anticipated level of risk when considering the scale and detail of information necessary.
+Most natural hazard data held by a local authority is at region-wide or district-wide scale and is either susceptibility or hazard information. That type of information indicates where an area is likely to be affected by a natural hazard, and may mean that deciding an application requires a request to the applicant for a further detailed assessment of the risk by a suitably qualified and experienced person (SQEP).
+Any risk assessment prepared by an SQEP to support a consent application should align with the NPS-NH framework. Depending on the level of risk, it may also be appropriate for the consent authority to have the applicant's risk assessment peer reviewed by an SQEP before deciding the application.
+As a general guide, an SQEP is a person who is independent; has a relevant professional registration, such as chartered professional engineer; applies good professional practice; undertakes a risk assessment in accordance with accepted industry practice and guidelines; and is willing to certify and stand by the conclusions of the report.
+Regional or district-scale susceptibility mapping is therefore an indicator of the need for further assessment, not a substitute for a site-specific assessment.
+
+[CRPS_CH11 | clause 11.3.5]
+Policy — General risk management approach
+For natural hazards or areas not addressed by Policies 11.3.1, 11.3.2 and 11.3.3, subdivision, use or development of land shall be avoided if the risk from natural hazards is unacceptable.
+When determining whether risk is unacceptable, the following matters will be considered: 1. the likelihood of the natural hazard event; and 2. the potential consequence of the natural hazard event for people and communities, property and infrastructure, the environment, and emergency response organisations.
+Where there is uncertainty in the likelihood or consequences of a natural hazard event, the local authority shall adopt a precautionary approach.
+Formal risk management techniques should be used, such as AS/NZS ISO 31000 Risk Management or AS/NZS 1170.0 Structural Design Actions.
+This policy implements Objective 11.2.1.
+
+[NPS_NH_GUIDE_2026 | clause Appendix 1]
+Additional reference material
+The guide lists non-statutory documents that provide additional information on the risk-based planning approach and on land-use planning for different hazards. Some require updating and may include information superseded by evolving best practice, but may still provide useful context.
+The listed material includes guidance on integrating tsunami inundation modelling into risk-based land-use planning; landslide planning guidance; AS/NZS ISO 31000:2018 Risk Management; guidance on planning for development of land on or close to active faults; planning and engineering guidance for potentially liquefaction-prone land; guidance on preparing for future flooding; coastal hazards and climate change guidance; and risk-based land-use planning for natural hazard risk reduction.
+For COMP662 Assignment 2, these referenced documents are not part of the supplied corpus. A response must not cite them as retrieved evidence.
+
+Case facts:
+Case SC010
+
+Proposal:
+  - Activity type: small community hall
+  - Lots / buildings: 1
+  - Expected occupancy: Up to 120 people
+  - Vulnerable occupants: no
+  - Design life (years): 75
+
+Site:
+  - Planning zone: Rural township zone
+  - Existing use: Vacant lot
+  - Hazard overlays: none supplied
+  - Available reports: none supplied
+
+Flood:
+  - Evidence available: no
+  - AEP (%): not supplied
+  - Return period (years): not supplied
+  - Modelled depth (m): not supplied
+  - Velocity (m/s): not supplied
+  - Climate change considered: not supplied
+
+Liquefaction:
+  - Susceptibility: not supplied
+  - Mapped evidence: not supplied
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: not supplied
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - No site-specific hazard information is supplied.
+  - The absence of a supplied overlay is not evidence that no hazard exists.
+
+Question: The case contains no supplied hazard reports. What can the assistant say, and what must it avoid assuming?
+
+####################################################################################################
+# P3 | DEV019 | out_of_scope
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Part 4: Assess the risk]
+Assessing risk for a specific activity and hazard
+The NPS-NH directs a risk-based approach — assessing the risk to a specific activity from a specific natural hazard. This requires decision-makers to consider the location, type and design of the activity for which consent is sought.
+Clause 3.2 of the NPS-NH identifies the key components required in a risk-based assessment: the likelihood of the event, the consequence for life and property, and consideration of both mitigation measures and residual risk.
+Where a proposal is exposed to more than one natural hazard, the risk assessment is carried out separately for each hazard.
+
+[NPS_NH_2025 | clause 3.2]
+Risk-based assessment
+(1) Natural hazard risk associated with subdivision, use or development must be assessed using: (a) the likelihood of a natural hazard event occurring, in accordance with Table 1 of Appendix 1; and (b) the consequence of a natural hazard event for life and property, in accordance with Table 2 of Appendix 1; to determine whether the level of natural hazard risk is low, medium, high or very high, in accordance with the risk matrix.
+(2) When assessing natural hazard risk, decision-makers must consider: (a) existing and proposed mitigation measures; and (b) residual risk that arises when the design thresholds of any existing and proposed mitigation measures are exceeded.
+
+[NPS_NH_2025 | clause 3.4]
+Best available information
+(1) When undertaking risk assessments and making decisions for the purposes of managing natural hazard risk, decision-makers must use the best information available at the time of making the assessment or decision.
+(2) When information is uncertain or incomplete, decision-makers must continue to undertake risk assessments and make decisions using the best available information, and must not delay making decisions solely because of uncertainty about the quality or quantity of the information available.
+
+[SELWYN_NH | clause NH-P3]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[NPS_NH_2025 | clause 2.1]
+Objective
+Natural hazard risk to people and property associated with subdivision, use and development is managed using a risk-based proportionate approach.
+
+Case facts:
+Case SC011
+
+Proposal:
+  - Activity type: commercial-scale crop production facility directly associated with primary production
+  - Lots / buildings: 2
+  - Expected occupancy: Seasonal workers
+  - Vulnerable occupants: no
+  - Design life (years): 40
+
+Site:
+  - Planning zone: Rural zone
+  - Existing use: Primary production land
+  - Hazard overlays: Flood management overlay
+  - Available reports: Flood map extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 2.0
+  - Return period (years): 50
+  - Modelled depth (m): 0.3
+  - Velocity (m/s): 0.2
+  - Climate change considered: yes
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: not supplied
+  - Freeboard (m): not supplied
+  - Drainage: not supplied
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: not supplied -- cannot be determined from case facts
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - This case is included to test scope checking; no hazard-specific risk level is supplied.
+
+Question: Use the assistant to decide whether this primary-production proposal is covered by the assessed natural-hazard policy scope.
+
+####################################################################################################
+# P3 | DEV021 | source_authority
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Disclaimer]
+Status and limitations
+This guide is intended to clarify policy intent and provide high-level implementation recommendations. It does not prescribe every step in natural hazard risk management.
+The guide is consistent with, and expands on, the policy intent of the NPS-NH, but it is not itself part of the NPS-NH and it is not legal advice.
+Read the guide alongside the National Policy Statement and other relevant official information. Where the two differ in emphasis, the National Policy Statement is the authoritative text.
+
+[NPS_NH_GUIDE_2026 | clause Part 1: Introduction]
+Purpose and organisation of the guide
+The guide explains the context and scope of the NPS-NH and supports practitioners implementing it.
+Part 1 explains the context and scope for the guide. Part 2 outlines the objective and policy approach of the NPS-NH. Part 3 explains what planning processes, natural hazards and activities the NPS-NH applies to. Part 4 steps through each of the implementation clauses. Part 5 explains how the NPS-NH interacts with other relevant policy instruments. Appendix 1 lists additional non-statutory reference material.
+Use the guide to understand implementation intent, while using the NPS-NH itself as the authoritative national policy text.
+
+[NPS_NH_GUIDE_2026 | clause Part 3: Consenting]
+The NPS-NH is designed to apply to resource consenting
+Section 104(1)(b)(iii) of the RMA requires decision-makers to have regard to any relevant national policy statement when deciding a subdivision or land-use consent. This applies until the decision is made, even if the application was lodged before the NPS-NH came into force.
+For discretionary and non-complying activities, all relevant matters can be considered under section 104B, so consent authorities must have regard to relevant provisions of the NPS-NH.
+Under sections 104A (controlled activities) and 104C (restricted discretionary activities), the consent authority can only consider the NPS-NH if natural hazards are explicitly included in the matters over which discretion or control has been restricted in the plan.
+Sections 106 and 106A allow a consent authority to refuse consent, or grant it subject to conditions, if it considers that there is a significant risk from natural hazards. These sections can be used for any consent type.
+
+[NPS_NH_GUIDE_2026 | clause Part 4: Best available information]
+Applying the best available information
+Where two sources of hazard information for the same site disagree, these criteria — currency, method, review status and documented uncertainty — are the basis for deciding which is the better available information. The disagreement itself should be recorded rather than resolved silently.
+
+[NPS_NH_GUIDE_2026 | clause Part 5: Other instruments]
+Interaction with other policies and legislation
+Natural hazard risk is also addressed through other legislation. The Building Act 2004 addresses building requirements through the Building Code and related compliance pathways. The Civil Defence Emergency Management Act 2002 focuses on preparing for, responding to and recovering from natural hazard events. The Local Government Official Information and Meetings Act 1987 requires all known natural hazard information held by a council to be included on Land Information Memoranda.
+Clause 1.3(3) directs that the New Zealand Coastal Policy Statement 2010 prevails where there is inconsistency in policy direction on managing natural hazard risk in the coastal environment.
+Because infrastructure is exempted from the NPS-NH, the National Policy Statement for Infrastructure 2025 applies when deciding a consent for infrastructure that is not infrastructure as defined in the RMA, or where existing planning provisions manage infrastructure in areas subject to natural hazards.
+The NPS-NH does not have precedence over the National Policy Statement on Urban Development 2020. Both must be considered and the outcomes sought by each balanced.
+
+Case facts: none supplied -- this is a general policy question, not a site-specific one.
+
+Question: If an official implementation guide and the national policy statement discuss the same issue, how should the assistant distinguish their authority in its answer?
+
+####################################################################################################
+# P3 | DEV023 | uncertainty
+####################################################################################################
+You are a cautious professional resource-management planning assistant. You never present a
+determination as final, and you say plainly when the supplied evidence does not settle a question.
+
+Two kinds of material are supplied and must not be blended together:
+- "Case facts" are structured facts about a specific site, supplied directly -- not retrieved, not policy text.
+- "Retrieved policy evidence" are extracts from the policy corpus, each labelled with its document and clause.
+
+Before writing your answer, work through this check (write it under the heading "Reasoning check:"):
+(a) Scope: does any retrieved evidence exclude the described activity or site from this policy framework
+    (for example an activity-type or environment exclusion)? If so, say which clause, and your final answer
+    must decline to give the determination that was asked for, stating the scope boundary instead.
+(b) Evidence sufficiency: for each hazard relevant to the question, is a risk level or the underlying data
+    actually supplied, or is it null / absent? Do not treat "no overlay" or "no report" as evidence of low
+    risk. Name any specific missing information.
+(c) Conflicts: do two supplied sources disagree? If so, state the conflict explicitly; do not average or
+    silently prefer one value.
+(d) Authority: if more than one document addresses the same point, which is the binding source? A national
+    policy statement outranks its own non-binding implementation guide; a regional plan sits below national
+    direction; a district rule implements, and must be read together with, regional and national provisions.
+
+Then write your final answer using ONLY what the check in (a)-(d) supports. Cite every policy claim as
+(document_id, clause_id), citing only document/clause pairs that appear in the retrieved evidence below.
+Never cite a case fact -- state it directly. If (a) found an exclusion, your final answer's recommendation
+section is the refusal itself, not a determination.
+
+Structure the final answer in exactly these sections. If a section does not apply, write the heading and one
+line saying so -- do not omit it and do not invent content to fill it.
+
+1. Proposal summary and relevant supplied site facts
+2. Applicable hazards and scope checks
+3. Relevant national, regional, and district provisions, with (document_id, clause_id) citations
+4. Mitigation considerations and possible effects on neighbouring sites
+5. Missing, uncertain, or conflicting information
+6. A cautious preliminary recommendation and appropriate next steps
+7. Limitations, including a statement that this is not a formal planning or engineering decision
+
+Retrieved policy evidence:
+[NPS_NH_GUIDE_2026 | clause Part 4: Best available information]
+Applying the best available information
+Where two sources of hazard information for the same site disagree, these criteria — currency, method, review status and documented uncertainty — are the basis for deciding which is the better available information. The disagreement itself should be recorded rather than resolved silently.
+
+[SELWYN_NH | clause NH-P11]
+Policy — Defences against water
+Avoid locating any residential unit or other asset of high value, including important infrastructure, between any waterbody and any defence against water designed or used to contain floodwater from that waterbody, unless that asset has a functional need or operational need to be in that location.
+Teaching note. Land on the waterway side of a flood defence remains exposed to the full design event and is not protected by the defence.
+
+[SELWYN_NH | clause NH-Overlays]
+Overlays used in this chapter
+The chapter manages natural hazards through mapped overlays. Those relevant to this extract are the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay. The chapter also uses the Coastal Erosion Overlay, Coastal Inundation Overlay, Tsunami Policy Overlay, Greendale Fault Overlay, Fault Investigation Overlay and Fault Awareness Overlay, which are outside the scope of this assessment.
+An overlay applies in addition to the underlying zone provisions. A site may therefore be subject both to the overlay provisions and to the rules of its zone.
+The two flood overlays carry different rules. Within the Plains Flood Management Overlay a new residential unit or principal building is permitted subject to the NH-R2.3 conditions. Within the Waimakariri Flood Management Overlay the same activity is non-complying under NH-R2.5.
+Teaching note. The presence of an overlay indicates mapped hazard exposure. The absence of an overlay on a supplied record is not evidence that a site is free from that hazard; it may mean only that the site has not been mapped, or that the supplied record does not include overlay information. The chapter itself recognises this in the Overview, which describes the Council's risk-based approach as including managing risk when there is uncertain or insufficient natural hazard risk information.
+
+[SELWYN_NH | clause NH-REQ4.1]
+Requirement — Natural hazards and earthworks
+Within the Coastal Inundation Overlay, the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay, the activity does not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Where compliance with NH-REQ4.1 is not achieved, the activity is restricted discretionary (RDIS), with discretion restricted to NH-MAT1 Natural Hazards Generally.
+Teaching note. This is the earthworks standard that gives effect to policy NH-P12. Compensatory storage or an equivalent measure is the usual way a proposal demonstrates that displaced floodwater is accommodated on site.
+
+[SELWYN_NH | clause NH-P12]
+Policy — Earthworks in flood management overlays
+Manage earthworks undertaken in the Waimakariri Flood Management Overlay and the Plains Flood Management Overlay to ensure that they do not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Teaching note. Earthworks that raise ground level within a flood management overlay reduce flood storage and can raise flood levels on adjoining land. The volume displaced and its effect on surrounding flood levels are the matters this policy is directed at. An assertion that a proposal will not increase flood risk on other sites is not sufficient without supporting analysis of the changed flood levels and flow paths.
+
+Case facts:
+Case SC006
+
+Proposal:
+  - Activity type: small commercial building
+  - Lots / buildings: 1
+  - Expected occupancy: Up to 35 customers and 10 staff
+  - Vulnerable occupants: no
+  - Design life (years): 50
+
+Site:
+  - Planning zone: Commercial zone
+  - Existing use: Vacant serviced site
+  - Hazard overlays: Flood management overlay
+  - Available reports: Older flood summary; Updated council flood extract
+
+Flood:
+  - Evidence available: yes
+  - AEP (%): 1.0
+  - Return period (years): 100
+  - Modelled depth (m): 0.25
+  - Velocity (m/s): 0.2
+  - Climate change considered: not supplied
+
+Liquefaction:
+  - Susceptibility: low
+  - Mapped evidence: Low susceptibility
+  - Site-specific geotech available: no
+
+Mitigation:
+  - Raised floor level: Proposed
+  - Freeboard (m): 0.2
+  - Drainage: Connection to existing network
+  - Foundation design: not supplied
+  - Access / evacuation: not supplied
+
+Supplied risk levels:
+  - flooding: Medium
+  - liquefaction: not supplied -- cannot be determined from case facts
+
+Known uncertainties (as supplied):
+  - The two supplied flood sources conflict.
+  - Climate-change assumptions are not stated in the older source.
+
+Question: Two supplied flood sources disagree. What should the assistant do with the conflict instead of selecting the more convenient value?

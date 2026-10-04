@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "retriever": "dense top-5 (Task 2)",
+    "prompt": "P1",
+    "embedding_model": "BAAI/bge-small-en-v1.5"
+  },
+  "final": {
+    "retriever": "hybrid BM25 + dense",
+    "alpha": 0.7,
+    "candidate_pool": 15,
+    "score_threshold": 0.666,
+    "top_k": 5,
+    "prompt": "P3"
+  },
+  "generator": "Qwen/Qwen2.5-1.5B-Instruct",
+  "decoding": {
+    "do_sample": false,
+    "max_new_tokens": 1024
+  },
+  "chunking": {
+    "cap_words": 250,
+    "n_chunks": 88
+  },
+  "prompt_hashes": {
+    "P1": "eb73f1aeadbcaa62",
+    "P2": "a2f262f737b80a06",
+    "P3": "d56711246de497a4"
+  },
+  "embedding_backend": "BAAI/bge-small-en-v1.5 (assessed baseline embedder)"
+}

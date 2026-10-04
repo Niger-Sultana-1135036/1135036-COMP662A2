@@ -1,0 +1,166 @@
+[
+  {
+    "document_id": "NPS_NH_2025",
+    "clause_id": "Appendix 1",
+    "pages": [
+      4,
+      4
+    ],
+    "merged_across_pages": false,
+    "header": [
+      "Consequence \\ Likelihood",
+      "Almost certain",
+      "Very likely",
+      "Likely",
+      "Possible",
+      "Unlikely",
+      "Rare",
+      "Very rare"
+    ],
+    "rows": [
+      [
+        "Catastrophic",
+        "Very high",
+        "Very high",
+        "Very high",
+        "High",
+        "Medium",
+        "Medium",
+        "Medium"
+      ],
+      [
+        "Major",
+        "Very high",
+        "Very high",
+        "High",
+        "High",
+        "Medium",
+        "Medium",
+        "Medium"
+      ],
+      [
+        "Moderate",
+        "High",
+        "High",
+        "High",
+        "Medium",
+        "Medium",
+        "Low",
+        "Low"
+      ],
+      [
+        "Minor",
+        "Medium",
+        "Medium",
+        "Medium",
+        "Medium",
+        "Low",
+        "Low",
+        "Low"
+      ],
+      [
+        "Negligible",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low",
+        "Low"
+      ]
+    ]
+  },
+  {
+    "document_id": "NPS_NH_2025",
+    "clause_id": "Appendix 1 Table 1",
+    "pages": [
+      4,
+      4
+    ],
+    "merged_across_pages": false,
+    "header": [
+      "Likelihood level",
+      "Annual exceedance probability (AEP)",
+      "ARI / return period"
+    ],
+    "rows": [
+      [
+        "Almost certain",
+        "10% or more",
+        "Up to and including 10 years"
+      ],
+      [
+        "Very likely",
+        "10% to 5%",
+        "Over 10 and up to and including 20 years"
+      ],
+      [
+        "Likely",
+        "5% to 2%",
+        "Over 20 and up to and including 50 years"
+      ],
+      [
+        "Possible",
+        "2% to 1%",
+        "Over 50 and up to and including 100 years"
+      ],
+      [
+        "Unlikely",
+        "1% to 0.2%",
+        "Over 100 and up to and including 500 years"
+      ],
+      [
+        "Rare",
+        "0.2% to 0.02%",
+        "Over 500 and up to and including 5,000 years"
+      ],
+      [
+        "Very rare",
+        "Less than 0.02%",
+        "More than 5,000 years"
+      ]
+    ]
+  },
+  {
+    "document_id": "NPS_NH_2025",
+    "clause_id": "Appendix 1 Table 2",
+    "pages": [
+      4,
+      4,
+      5
+    ],
+    "merged_across_pages": true,
+    "header": [
+      "Consequence level",
+      "Damage to property",
+      "Potential for injury or fatalities"
+    ],
+    "rows": [
+      [
+        "Catastrophic",
+        "Severe damage to land and building(s), potential for collapse or total destruction of structures. Building(s) need to be demolished, rebuilt or relocated.",
+        "High threat to life safety, with probable fatalities and/or critical injuries."
+      ],
+      [
+        "Major",
+        "Major damage to land and building(s), including structural damage. Loss of use and substantial repair required.",
+        "Unsafe for people, with potential for many injuries, or critical injuries and/or fatalities."
+      ],
+      [
+        "Moderate",
+        "Some damage to land and non-structural damage to building(s). Limited loss of use, repairs required.",
+        "Unsafe for people, with potential for injuries, although expected to be minor."
+      ],
+      [
+        "Minor",
+        "Minor damage to land and building(s). No loss of use, minimal repairs required.",
+        "Isolated minor injuries possible."
+      ],
+      [
+        "Negligible",
+        "No loss of use, no building repairs required.",
+        "No injuries."
+      ]
+    ]
+  }
+]

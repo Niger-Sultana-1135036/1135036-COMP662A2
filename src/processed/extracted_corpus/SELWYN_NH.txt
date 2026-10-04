@@ -1,0 +1,128 @@
+[[CLAUSE NH-Overview]]
+Overview — scope of the chapter
+A natural hazard is defined in the Resource Management Act 1991 as any atmospheric, earth or water related occurrence — including earthquake, tsunami, erosion, volcanic and geothermal activity, landslip, subsidence, sedimentation, wind, drought, fire or flooding — the action of which adversely affects or may adversely affect human life, property, or other aspects of the environment.
+Both the Canterbury Regional Policy Statement 2013 and the New Zealand Coastal Policy Statement 2010 promote a risk-based approach to natural hazard and coastal hazard management.
+The Council has defined a risk-based approach as: managing risk when there is uncertain or insufficient natural hazard risk information; and managing risk based on the scale of a particular natural hazard event, together with the likelihood of that event occurring and the effects on people and property.
+This approach reflects the large geographical spread of the District, with sparse population and low development in some areas compared with discrete areas of larger population in its townships. In the larger populated and developed areas the consequences from natural hazards, and therefore the risk, could be considerably greater.
+The natural hazards managed by this Plan are coastal hazards, flood hazards, geotechnical hazards, and wildfire hazards.
+Teaching note. This extract covers the flood and geotechnical provisions relevant to COMP662 Assignment 2. The coastal, fault, slope-instability and wildfire provisions of the chapter are not reproduced and must not be cited as retrieved evidence.
+
+[[CLAUSE NH-Overlays]]
+Overlays used in this chapter
+The chapter manages natural hazards through mapped overlays. Those relevant to this extract are the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay. The chapter also uses the Coastal Erosion Overlay, Coastal Inundation Overlay, Tsunami Policy Overlay, Greendale Fault Overlay, Fault Investigation Overlay and Fault Awareness Overlay, which are outside the scope of this assessment.
+An overlay applies in addition to the underlying zone provisions. A site may therefore be subject both to the overlay provisions and to the rules of its zone.
+The two flood overlays carry different rules. Within the Plains Flood Management Overlay a new residential unit or principal building is permitted subject to the NH-R2.3 conditions. Within the Waimakariri Flood Management Overlay the same activity is non-complying under NH-R2.5.
+Teaching note. The presence of an overlay indicates mapped hazard exposure. The absence of an overlay on a supplied record is not evidence that a site is free from that hazard; it may mean only that the site has not been mapped, or that the supplied record does not include overlay information. The chapter itself recognises this in the Overview, which describes the Council's risk-based approach as including managing risk when there is uncertain or insufficient natural hazard risk information.
+
+[[CLAUSE NH-Definitions]]
+Defined terms used in this chapter
+High hazard area, important infrastructure, land transport infrastructure, principal building and residential unit are terms defined in the Definitions chapter of the Partially Operative Selwyn District Plan. Those definitions are not part of the Natural Hazards chapter and are not reproduced in this extract.
+Teaching note. Because the district definition of high hazard area is not in the supplied corpus, the applicable definition available to your system is the regional one, in Canterbury Regional Policy Statement Chapter 11 (document CRPS_CH11, clause 'Definition: high hazard areas'). That definition applies a test at a 0.2% AEP event: water depth in metres multiplied by velocity in metres per second greater than or equal to 1, or depth greater than 1 metre.
+Teaching note. A response that classifies a site as inside or outside a high hazard area should say which definition it applied and at which design event, and should state that flood evidence supplied for a more frequent event, such as a 1% or 0.5% AEP event, cannot be substituted into a test defined for the 0.2% AEP event.
+
+[[CLAUSE NH-O1]]
+Objective — Natural hazard risk
+New subdivision, use, and development, except for new important infrastructure and land transport infrastructure where NH-O2 applies instead, is:
+1. avoided in areas where the risks from natural hazards to people, property, and infrastructure are assessed as being unacceptable; and
+2. in all other areas, undertaken in a manner that ensures that the risks of natural hazards to people, property, and infrastructure are appropriately mitigated.
+
+[[CLAUSE NH-O2]]
+Objective — Important infrastructure and land transport infrastructure
+Important infrastructure and land transport infrastructure is only located within areas of significant natural hazard risk where there is a functional or operational need to locate in that environment, or there is no reasonable alternative, and the infrastructure is designed so as not to exacerbate natural hazard risk to people and property.
+
+[[CLAUSE NH-O3]]
+Objective — Effects of mitigation methods
+Methods to mitigate natural hazards do not create or exacerbate adverse effects on other people, property, infrastructure, or the environment.
+
+[[CLAUSE NH-O4]]
+Objective — Climate change
+The effects of climate change, and its influence on sea levels and the frequency and severity of natural hazards, are recognised and provided for.
+
+[[CLAUSE NH-P1]]
+Policy — High hazard areas
+Avoid new subdivision, use, or development of land in high hazard areas, except for important infrastructure and land transport infrastructure where NH-P2 applies instead, unless the subdivision, use or development either:
+1. is not likely to: (a) result in loss of life or serious injuries; and (b) suffer significant damage or loss; and (c) require new or upgraded natural hazard mitigation works to mitigate or avoid the natural hazard; and (d) exacerbate the effects of the natural hazard; or
+2. alternatively, is located in any of the following areas as at 6 December 2013, in which case the effects of the natural hazard must be avoided or appropriately mitigated: (a) a Living 1 zone, Living X zone or Living Z zone; (b) in Lincoln, a Living 2 zone; or (c) a Business zone.
+Teaching note. Limb 1 requires all four of (a) to (d) to be satisfied. A proposal that would place people in the area, or that relies on new mitigation works, does not satisfy limb 1.
+
+[[CLAUSE NH-P2]]
+Policy — Important infrastructure in high hazard areas
+Avoid the development or use of land, buildings, or structures in high hazard areas for any important infrastructure or land transport infrastructure, unless the activity:
+1. does not pose a significant risk, or exacerbate an existing risk, to people or property; and
+2. either: (a) has a functional need or operational need to be in that location; or (b) is not vulnerable to the natural hazard; and
+3. contributes to the resilience of the community in the event of a natural disaster.
+
+[[CLAUSE NH-P3]]
+Policy — Areas vulnerable to natural hazards outside high hazard areas
+Restrict new subdivision, use, or development of land in areas outside high hazard areas but known to be vulnerable to a natural hazard, unless any potential risk of loss of life or damage to property is appropriately mitigated.
+Teaching note. This is the policy that applies to a site that is exposed to a hazard but is not in a high hazard area. It turns on whether the risk of loss of life or damage to property is appropriately mitigated, so a proposal must show what the mitigation is and what risk remains after it.
+
+[[CLAUSE NH-P5]]
+Policy — Climate change
+When determining if new subdivision, use, or development is appropriate and sustainable in relation to the potential risks from natural hazard events, have particular regard to the effects of climate change.
+
+[[CLAUSE NH-P10]]
+Policy — Plains Flood Management Overlay
+In areas within the Plains Flood Management Overlay that are not a high hazard area, provide for:
+1. important infrastructure and land transport infrastructure; and
+2. any other new subdivision, use, and development only where every new residential unit or principal building has an appropriate floor level above the 200 year Average Return Interval (ARI) design flood level.
+Teaching note. This policy states the requirement qualitatively as an appropriate floor level. The numeric standard is set by NH-SCHED1, which specifies a minimum finished floor level 300 mm above the 200-year ARI flood level. Assess a proposed floor level against NH-SCHED1 and the rule NH-R2.3, not against this policy alone.
+Teaching note. Where no Flood Assessment Certificate has been issued for the site, the design flood level has not been established and a proposed floor level cannot be evaluated against this policy on the supplied information.
+
+[[CLAUSE NH-P11]]
+Policy — Defences against water
+Avoid locating any residential unit or other asset of high value, including important infrastructure, between any waterbody and any defence against water designed or used to contain floodwater from that waterbody, unless that asset has a functional need or operational need to be in that location.
+Teaching note. Land on the waterway side of a flood defence remains exposed to the full design event and is not protected by the defence.
+
+[[CLAUSE NH-P12]]
+Policy — Earthworks in flood management overlays
+Manage earthworks undertaken in the Waimakariri Flood Management Overlay and the Plains Flood Management Overlay to ensure that they do not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Teaching note. Earthworks that raise ground level within a flood management overlay reduce flood storage and can raise flood levels on adjoining land. The volume displaced and its effect on surrounding flood levels are the matters this policy is directed at. An assertion that a proposal will not increase flood risk on other sites is not sufficient without supporting analysis of the changed flood levels and flow paths.
+
+[[CLAUSE NH-P13]]
+Policy — Liquefaction
+Provide for subdivision on flat land where the liquefaction hazard has been appropriately identified and assessed, and can be adequately remedied or mitigated.
+Teaching note. Regional or district-scale susceptibility mapping indicates the possible presence of liquefiable ground. It does not establish the liquefaction hazard on an individual site, and it is not a substitute for a site-specific geotechnical assessment by a suitably qualified and experienced person.
+Teaching note. Where a site-specific geotechnical assessment has not been provided, the liquefaction hazard has not been appropriately identified and assessed for the purposes of this policy.
+
+[[CLAUSE NH-R2.1]]
+Rule — New buildings and structures in the Coastal Erosion and Coastal Inundation Overlays
+Within the Coastal Erosion Overlay and the Coastal Inundation Overlay, the establishment of any new residential unit or other principal building where the building is located in a Residential Zone is a discretionary activity (DIS).
+Where compliance with NH-R2.1 is not achieved, the activity is non-complying (NC).
+Teaching note. Coastal hazards are outside the scope of COMP662 Assignment 2. This rule is included only so that the structure of the NH-R2 rule table is visible.
+
+[[CLAUSE NH-R2.3]]
+Rule — New buildings and structures in the Plains Flood Management Overlay
+Within the Plains Flood Management Overlay, the establishment of any new residential unit or other principal building is a permitted activity (PER) where:
+a. the building is not located in a high hazard area; and
+b. the building is not located between any surface water body and any stopbank designed to contain floodwater from that surface water body; and
+c. the building finished floor level is equal to or higher than the minimum floor level stated in a Flood Assessment Certificate issued in accordance with NH-SCHED1 Flood Assessment Certificates.
+Teaching note. Compliance is assessed against the certified minimum finished floor level. A proposed floor level described only as raised, or as having some freeboard, without reference to a certified design flood level, does not demonstrate compliance with (c).
+
+[[CLAUSE NH-R2.4]]
+Rule — Activity status where NH-R2.3 is not met
+Where compliance with NH-R2.3.a or NH-R2.3.b is not achieved, the activity is non-complying (NC).
+Where compliance with NH-R2.3.c is not achieved, the activity is restricted discretionary (RDIS).
+Teaching note. The two failure paths are not equivalent. Being in a high hazard area, or between a water body and its stopbank, makes the activity non-complying, which is a substantially higher consent hurdle. Failing only the certified floor level makes it restricted discretionary. A response that treats any non-compliance with NH-R2.3 as merely requiring consent understates the first case.
+
+[[CLAUSE NH-R2.5]]
+Rule — New buildings and structures in the Waimakariri Flood Management Overlay
+Within the Waimakariri Flood Management Overlay, the establishment of any new residential unit or other principal building is a non-complying activity (NC).
+Teaching note. The two flood overlays are treated differently. The same building that is permitted subject to conditions in the Plains Flood Management Overlay is non-complying in the Waimakariri Flood Management Overlay. Check which overlay a case is in before applying NH-R2.3.
+
+[[CLAUSE NH-REQ4.1]]
+Requirement — Natural hazards and earthworks
+Within the Coastal Inundation Overlay, the Plains Flood Management Overlay and the Waimakariri Flood Management Overlay, the activity does not exacerbate flooding on any other property by displacing or diverting floodwater on surrounding land.
+Where compliance with NH-REQ4.1 is not achieved, the activity is restricted discretionary (RDIS), with discretion restricted to NH-MAT1 Natural Hazards Generally.
+Teaching note. This is the earthworks standard that gives effect to policy NH-P12. Compensatory storage or an equivalent measure is the usual way a proposal demonstrates that displaced floodwater is accommodated on site.
+
+[[CLAUSE NH-SCHED1]]
+Schedule — Flood Assessment Certificates
+A Flood Assessment Certificate will be issued by the Selwyn District Council, valid for 2 years from the date of issue, which specifies:
+1. whether or not the site or activity is located on land that is within a High Hazard Area; and
+2. whether or not the site or activity is likely to be subject to inundation in a 200-year Average Recurrence Interval (ARI) flood event; and
+3. where the site or activity is not located on land within a High Hazard Area but is likely to be subject to inundation in a 200-year ARI flood event, a minimum finished floor level for any new building or structure, or part of one, that is 300 mm above the 200-year ARI flood level.
+The minimum finished floor level will be determined with reference to: 1. the most up to date models and maps held by Selwyn District Council or Canterbury Regional Council; 2. any relevant field information; and 3. any site-specific flood assessment prepared by a suitably qualified and experienced person.
+Advice note. Information showing the modelled flood characteristics within specific parts of the district is publicly available online via Canterbury Maps. That information is indicative only and will be updated to reflect the best information as it becomes available.
+Teaching note. This schedule is where the 300 mm figure is set. A draft, indicative or unissued certificate does not establish a minimum finished floor level, so where only a draft is available the required floor level has not been established for the purposes of NH-R2.3.
+Teaching note. A Flood Assessment Certificate addresses flood levels and high hazard area status only. It does not address liquefaction, land stability, or any other natural hazard, and it is not a building consent, resource consent or engineering certification.
