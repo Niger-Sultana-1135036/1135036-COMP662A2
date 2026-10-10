@@ -1,7 +1,9 @@
 # Niger Sultana
 ## 1135036
 
-Project: Develop a Natural-Hazard Land-Use Assistant that helps a landowner or junior planner
+### Project: Retrieval-Augmented Generation
+
+Develop a Natural-Hazard Land-Use Assistant that helps a landowner or junior planner
 undertake a preliminary assessment. Your system will retrieve evidence from a curated collection of
 national, regional, and district policy documents; integrate that evidence with structured site and
 development information; and generate a transparent preliminary assessment. It must cite the
